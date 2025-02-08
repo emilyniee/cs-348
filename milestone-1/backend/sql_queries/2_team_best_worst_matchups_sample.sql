@@ -31,7 +31,6 @@ WITH
             team_away
     )
 SELECT
-    name,
     opponent_team,
     avg_point_diff
 FROM
@@ -44,6 +43,8 @@ FROM
                 all_games
             GROUP BY
                 opponent_team
+            ORDER BY
+                avg_point_diff DESC
             FETCH FIRST
                 3 ROWS ONLY
         )
