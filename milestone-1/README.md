@@ -13,3 +13,10 @@ if the docker image does not build or if any errors occur then enter the milesto
 
 To view database, you can access PgAdmin at http://localhost:5050
 Use email admin@admin.com and password pgadmin to sign in.
+
+## Sample features/functionalities
+<img width="991" alt="image" src="https://github.com/user-attachments/assets/4f466075-2cb1-4bd0-841a-36e7cc434c28" />
+
+Leaderboard relative to points scored
+<img width="991" alt="image" src="https://github.com/user-attachments/assets/bb58e096-4221-49ca-adf2-582942191b06" />
+
