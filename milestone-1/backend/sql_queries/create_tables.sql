@@ -47,7 +47,7 @@ CREATE TABLE Player
 ( 
     player_id SERIAL PRIMARY KEY, 
     name VARCHAR(200) NOT NULL, 
-    age DECIMAL,
+    age INT,
     position position_enum NOT NULL,
     team_id INT NOT NULL,
     FOREIGN KEY (team_id) REFERENCES Teams(team_id)
