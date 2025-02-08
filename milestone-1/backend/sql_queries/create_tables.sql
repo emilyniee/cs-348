@@ -1,11 +1,3 @@
-DROP TYPE IF EXISTS series_enum;
-DROP TYPE IF EXISTS position_enum;
-DROP TYPE IF EXISTS conference_enum;
-
-CREATE TYPE series_enum AS ENUM ('Quarterfinals', 'Semifinals', 'Finals', 'Championship Finals');
-CREATE TYPE position_enum AS ENUM ('Point Guard', 'Shooting Guard', 'Small Forward', 'Power Forward', 'Center');
-CREATE TYPE conference_enum AS ENUM ('West', 'East');
-
 -- Drop existing tables (include all tables that will be re-created)
 DROP TABLE IF EXISTS PlayerStats;
 DROP TABLE IF EXISTS RosterMembers;
@@ -17,6 +9,14 @@ DROP TABLE IF EXISTS Player;
 DROP TABLE IF EXISTS Playoffs;
 DROP TABLE IF EXISTS Arenas;
 DROP TABLE IF EXISTS Teams;
+
+DROP TYPE IF EXISTS series_enum;
+DROP TYPE IF EXISTS position_enum;
+DROP TYPE IF EXISTS conference_enum;
+
+CREATE TYPE series_enum AS ENUM ('Quarterfinals', 'Semifinals', 'Finals', 'Championship Finals');
+CREATE TYPE position_enum AS ENUM ('Point Guard', 'Shooting Guard', 'Small Forward', 'Power Forward', 'Center');
+CREATE TYPE conference_enum AS ENUM ('West', 'East');
 
 
 CREATE TABLE Teams
