@@ -44,8 +44,6 @@ FROM
                 all_games
             GROUP BY
                 opponent_team
-            ORDER BY
-                avg_point_diff DESC
             FETCH FIRST
                 3 ROWS ONLY
         )
@@ -63,5 +61,4 @@ FROM
             FETCH FIRST
                 3 ROWS ONLY
         )
-    )
-    JOIN Teams ON Teams.team_id = opponent_team;
+    );
