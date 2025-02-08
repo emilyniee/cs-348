@@ -1,3 +1,7 @@
+DROP TYPE IF EXISTS series_enum;
+DROP TYPE IF EXISTS position_enum;
+DROP TYPE IF EXISTS conference_enum;
+
 CREATE TYPE series_enum AS ENUM ('Quarterfinals', 'Semifinals', 'Finals', 'Championship Finals');
 CREATE TYPE position_enum AS ENUM ('Point Guard', 'Shooting Guard', 'Small Forward', 'Power Forward', 'Center');
 CREATE TYPE conference_enum AS ENUM ('West', 'East');
