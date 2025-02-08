@@ -6,6 +6,9 @@ To start application, run
 
 and try making requests to http://localhost:8000/
 
+## Error Handling
+if the docker image does not build or if any errors occur then enter the milestone-1/frontend folder and run 
+`npm install`
 
 
 To view database, you can access PgAdmin at http://localhost:5050
