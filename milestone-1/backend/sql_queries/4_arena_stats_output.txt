@@ -1,0 +1,134 @@
+[
+  [
+    "Home Team",
+    "DENVER_NUGGETS",
+    84.6153846153846],
+  [
+    "Home Team",
+    "MEMPHIS_GRIZZLIES",
+    84.0909090909091],
+  [
+    "Home Team",
+    "GOLDEN_STATE_WARRIORS",
+    78.7234042553192],
+  [
+    "Home Team",
+    "MILWAUKEE_BUCKS",
+    75],
+  [
+    "Home Team",
+    "CLEVELAND_CAVALIERS",
+    72.7272727272727],
+  [
+    "Home Team",
+    "BOSTON_CELTICS",
+    71.1538461538462],
+  [
+    "Home Team",
+    "PHILADELPHIA_76ERS",
+    69.5652173913043],
+  [
+    "Home Team",
+    "PHOENIX_SUNS",
+    68.0851063829787],
+  [
+    "Home Team",
+    "TORONTO_RAPTORS",
+    64.2857142857143],
+  [
+    "Home Team",
+    "NEW_ORLEANS_PELICANS",
+    64.2857142857143],
+  [
+    "Home Team",
+    "MIAMI_HEAT",
+    64.1509433962264],
+  [
+    "Home Team",
+    "LOS_ANGELES_LAKERS",
+    60],
+  [
+    "Home Team",
+    "NEW_YORK_KNICKS",
+    58.6956521739131],
+  [
+    "Home Team",
+    "OKLAHOMA_CITY_THUNDER",
+    58.5365853658537],
+  [
+    "Home Team",
+    "ATLANTA_HAWKS",
+    56.8181818181818],
+  [
+    "Home Team",
+    "DALLAS_MAVERICKS",
+    56.0975609756098],
+  [
+    "Home Team",
+    "UTAH_JAZZ",
+    56.0975609756098],
+  [
+    "Home Team",
+    "SACRAMENTO_KINGS",
+    55.5555555555556],
+  [
+    "Home Team",
+    "MINNESOTA_TIMBERWOLVES",
+    54.5454545454546],
+  [
+    "Home Team",
+    "CHICAGO_BULLS",
+    53.6585365853659],
+  [
+    "Home Team",
+    "BROOKLYN_NETS",
+    53.4883720930233],
+  [
+    "Home Team",
+    "LOS_ANGELES_CLIPPERS",
+    53.4883720930233],
+  [
+    "Home Team",
+    "INDIANA_PACERS",
+    48.7804878048781],
+  [
+    "Home Team",
+    "ORLANDO_MAGIC",
+    48.7804878048781],
+  [
+    "Home Team",
+    "WASHINGTON_WIZARDS",
+    46.3414634146342],
+  [
+    "Home Team",
+    "PORTLAND_TRAIL_BLAZERS",
+    41.4634146341463],
+  [
+    "Home Team",
+    "SAN_ANTONIO_SPURS",
+    34.1463414634146],
+  [
+    "Home Team",
+    "HOUSTON_ROCKETS",
+    34.1463414634146],
+  [
+    "Home Team",
+    "CHARLOTTE_HORNETS",
+    31.7073170731707],
+  [
+    "Home Team",
+    "DETROIT_PISTONS",
+    21.9512195121951],
+  [
+    "Top Away Team",
+    "BOSTON_CELTICS",
+    62],
+  [
+    "Top Away Team",
+    "PHILADELPHIA_76ERS",
+    61.7021276595745],
+  [
+    "Top Away Team",
+    "MILWAUKEE_BUCKS",
+    60.4651162790698]
+]
