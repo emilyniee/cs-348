@@ -1,3 +1,7 @@
+CREATE TYPE series_enum AS ENUM ('Quarterfinals', 'Semifinals', 'Finals', 'Championship Finals');
+CREATE TYPE position_enum AS ENUM ('Point Guard', 'Shooting Guard', 'Small Forward', 'Power Forward', 'Center');
+CREATE TYPE conference_enum AS ENUM ('West', 'East');
+
 -- Drop existing tables (include all tables that will be re-created)
 DROP TABLE IF EXISTS PlayerStats;
 DROP TABLE IF EXISTS RosterMembers;
@@ -14,7 +18,9 @@ DROP TABLE IF EXISTS Teams;
 CREATE TABLE Teams
 (
     team_id SERIAL PRIMARY KEY, 
-    name VARCHAR(200) NOT NULL
+    name VARCHAR(200) NOT NULL,
+    conference conference_enum NOT NULL
+
 );
 CREATE TABLE Arenas
 (
@@ -27,7 +33,7 @@ CREATE TABLE Playoffs
     playoff_id SERIAL PRIMARY KEY,
     team_id1 INT NOT NULL,
     team_id2 INT NOT NULL,
-    series VARCHAR(50),
+    series series_enum NOT NULL,
     season VARCHAR(10) NOT NULL,
     FOREIGN KEY (team_id1) REFERENCES Teams(team_id),
     FOREIGN KEY (team_id2) REFERENCES Teams(team_id)
@@ -38,7 +44,7 @@ CREATE TABLE Player
     player_id SERIAL PRIMARY KEY, 
     name VARCHAR(200) NOT NULL, 
     age DECIMAL,
-    position_id VARCHAR(200),
+    position position_enum NOT NULL,
     team_id INT NOT NULL,
     FOREIGN KEY (team_id) REFERENCES Teams(team_id)
 ); 
