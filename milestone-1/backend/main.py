@@ -2,7 +2,18 @@ from fastapi import FastAPI
 import os
 from database import init, get_leaderboards_sql, get_roster_stats_sql, get_team_best_worst_matchup_sql, get_arena_stats_sql
 
+from fastapi.middleware.cors import CORSMiddleware
+
+
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.on_event("startup")
 def on_startup():
