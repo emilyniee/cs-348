@@ -5,7 +5,7 @@ WITH HomeStats AS (
         SUM(CASE WHEN g.home_score > g.away_score THEN 1 ELSE 0 END) AS wins
     FROM Games g
     JOIN Arena a ON g.arena_id = a.arena_id
-    WHERE a.arena_name = ${arena_id}
+    WHERE a.arena_name = ${arena_name}
     GROUP BY g.home_team_id
 ),
 
@@ -16,7 +16,7 @@ AwayStats AS (
         SUM(CASE WHEN g.away_score > g.home_score THEN 1 ELSE 0 END) AS wins
     FROM Games g
     JOIN Arena a ON g.arena_id = a.arena_id
-    WHERE a.arena_name = ${arena_id}
+    WHERE a.arena_name = ${arena_name}
     GROUP BY g.away_team_id
 ),
 
