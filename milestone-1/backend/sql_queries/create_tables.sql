@@ -14,21 +14,21 @@ DROP TABLE IF EXISTS Teams;
 CREATE TABLE Teams
 (
     team_id SERIAL PRIMARY KEY, 
-    name VARCHAR(200)
+    name VARCHAR(200) NOT NULL
 );
 CREATE TABLE Arenas
 (
     arena_id SERIAL PRIMARY KEY,
-    arena_name VARCHAR(200),
+    arena_name VARCHAR(200) NOT NULL,
     city_name VARCHAR(200)
 );
 CREATE TABLE Playoffs
 (
     playoff_id SERIAL PRIMARY KEY,
-    team_id1 INT,
-    team_id2 INT,
+    team_id1 INT NOT NULL,
+    team_id2 INT NOT NULL,
     series VARCHAR(50),
-    season VARCHAR(10),
+    season VARCHAR(10) NOT NULL,
     FOREIGN KEY (team_id1) REFERENCES Teams(team_id),
     FOREIGN KEY (team_id2) REFERENCES Teams(team_id)
 
@@ -36,24 +36,24 @@ CREATE TABLE Playoffs
 CREATE TABLE Player 
 ( 
     player_id SERIAL PRIMARY KEY, 
-    name VARCHAR(200), 
+    name VARCHAR(200) NOT NULL, 
     age DECIMAL,
     position_id VARCHAR(200),
-    team_id INT,
+    team_id INT NOT NULL,
     FOREIGN KEY (team_id) REFERENCES Teams(team_id)
 ); 
 
 CREATE TABLE Game
 (
     game_id SERIAL PRIMARY KEY, 
-    home_team_id INT,
-    away_team_id INT,
-    season VARCHAR(10),
+    home_team_id INT NOT NULL,
+    away_team_id INT NOT NULL,
+    season VARCHAR(10) NOT NULL,
     "date" DATE NOT NULL,
     is_playoff BOOLEAN,
-    home_score INT,
-    away_score INT,
-    arena_id INT,
+    home_score INT NOT NULL,
+    away_score INT NOT NULL,
+    arena_id INT NOT NULL,
     FOREIGN KEY (home_team_id) REFERENCES Teams(team_id),
     FOREIGN KEY (away_team_id) REFERENCES Teams(team_id),
     FOREIGN KEY (arena_id) REFERENCES Arenas(arena_id)
@@ -62,16 +62,16 @@ CREATE TABLE Game
 CREATE TABLE Rosters 
 (
     roster_id SERIAL PRIMARY KEY, 
-    team_id INT,
-    season VARCHAR(10),
+    team_id INT NOT NULL,
+    season VARCHAR(10) NOT NULL,
     FOREIGN KEY (team_id) REFERENCES Teams(team_id)
 );
 
 CREATE TABLE RosterMembers
 (
-    player_id INT, 
-    roster_id INT,
-    season VARCHAR(10),
+    player_id INT NOT NULL, 
+    roster_id INT NOT NULL,
+    season VARCHAR(10) NOT NULL,
     PRIMARY KEY (player_id, roster_id),
     FOREIGN KEY (player_id) REFERENCES Player(player_id),
     FOREIGN KEY (roster_id) REFERENCES Rosters(roster_id)
@@ -79,8 +79,8 @@ CREATE TABLE RosterMembers
 );
 CREATE TABLE GameSeries
 (
-    playoff_id INT,
-    game_id INT,
+    playoff_id INT NOT NULL,
+    game_id INT NOT NULL,
     PRIMARY KEY (playoff_id, game_id),
     FOREIGN KEY (playoff_id) REFERENCES Playoffs(playoff_id),
     FOREIGN KEY (game_id) REFERENCES Game(game_id)
@@ -88,8 +88,8 @@ CREATE TABLE GameSeries
 
 CREATE TABLE PlayerStats
 (
-    player_id INT,
-    game_id INT,
+    player_id INT NOT NULL,
+    game_id INT NOT NULL,
     points INT,
     assists INT,
     rebounds INT,
@@ -112,8 +112,8 @@ CREATE TABLE PlayerStats
 
 CREATE TABLE TeamArenas
 (
-    arena_id INT,
-    team_id INT,
+    arena_id INT NOT NULL,
+    team_id INT NOT NULL,
     PRIMARY KEY (arena_id, team_id),
     FOREIGN KEY (arena_id) REFERENCES Arenas(arena_id),
     FOREIGN KEY (team_id) REFERENCES Teams(team_id)
