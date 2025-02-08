@@ -111,7 +111,7 @@ CREATE TABLE PlayerStats
     fg_percent DECIMAL,
     ts_percent DECIMAL,
     ft_percent DECIMAL,
-    minutes_played DECIMAL,
+    minutes_played INT,
     PRIMARY KEY (player_id, game_id),
     FOREIGN KEY (player_id) REFERENCES Player(player_id),
     FOREIGN KEY (game_id) REFERENCES Game(game_id)
