@@ -21,15 +21,13 @@ CREATE TYPE conference_enum AS ENUM ('West', 'East');
 
 CREATE TABLE Teams
 (
-    team_id SERIAL PRIMARY KEY, 
-    name VARCHAR(200) NOT NULL,
+    name VARCHAR(200) PRIMARY KEY,
     conference conference_enum NOT NULL
 
 );
 CREATE TABLE Arenas
 (
-    arena_id SERIAL PRIMARY KEY,
-    arena_name VARCHAR(200) NOT NULL,
+    name VARCHAR(200) PRIMARY KEY,
     city_name VARCHAR(200)
 );
 CREATE TABLE Playoffs
@@ -104,6 +102,7 @@ CREATE TABLE PlayerStats
     assists INT,
     rebounds INT,
     blocks INT,
+    steals INT,
     turnovers INT,
     fg_attempts INT,
     three_pt_attempts INT,
