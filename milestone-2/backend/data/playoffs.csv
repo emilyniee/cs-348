@@ -1,3 +1,16 @@
-playoff_id,team_id1,team_id2,series,season
-1,1,2,"Quarterfinals","2023"
-2,3,4,"Quarterfinals","2023"
+playoff_id,team_name1,team_name2,series,season
+1,"Miami Heat","Boston Celtics","Quarterfinals",2023-2024
+2,"Orlando Magic","Cleveland Cavaliers","Quarterfinals",2023-2024
+3,"Indiana Pacers","Milwaukee Bucks","Quarterfinals",2023-2024
+4,"Philadelphia 76ers","New York Knicks","Quarterfinals",2023-2024
+5,"New Orleans Pelicans","Oklahoma City Thunder","Quarterfinals",2023-2024
+6,"Dallas Mavericks","Los Angeles Clippers","Quarterfinals",2023-2024
+7,"Phoenix Suns","Minnesota Timberwolves","Quarterfinals",2023-2024
+8,"Los Angeles Lakers","Denver Nuggets","Quarterfinals",2023-2024
+9,"Indiana Pacers","New York Knicks","Semifinals",2023-2024
+10,"Cleveland Cavaliers","Boston Celtics","Semifinals",2023-2024
+11,"Dallas Mavericks","Oklahoma City Thunder","Semifinals",2023-2024
+12,"Minnesota Timberwolves","Denver Nuggets","Semifinals",2023-2024
+13,"Indiana Pacers","Boston Celtics","Finals",2023-2024
+14,"Dallas Mavericks","Minnesota Timberwolves","Finals",2023-2024
+15,"Dallas Mavericks","Boston Celtics","Championship Finals",2023-2024
