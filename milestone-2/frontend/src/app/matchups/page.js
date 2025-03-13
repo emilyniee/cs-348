@@ -16,7 +16,6 @@ export default function Home() {
   var bestMatchups = [];
   if (data != null) {
     JSON.stringify(data)
-    console.log(data)
     parsedData = data.map(([opName, id, ptsScored]) => ({
       opName,
       id,
