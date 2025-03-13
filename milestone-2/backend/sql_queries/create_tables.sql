@@ -54,17 +54,17 @@ CREATE TABLE Player
 CREATE TABLE Game
 (
     game_id SERIAL PRIMARY KEY, 
-    home_team_id INT NOT NULL,
-    away_team_id INT NOT NULL,
+    home_team_name VARCHAR(200) NOT NULL,
+    away_team_name VARCHAR(200) NOT NULL,
     season VARCHAR(10) NOT NULL,
     "date" DATE NOT NULL,
     is_playoff BOOLEAN,
     home_score INT NOT NULL,
     away_score INT NOT NULL,
-    arena_id INT NOT NULL,
-    FOREIGN KEY (home_team_id) REFERENCES Teams(team_id),
-    FOREIGN KEY (away_team_id) REFERENCES Teams(team_id),
-    FOREIGN KEY (arena_id) REFERENCES Arenas(arena_id)
+    arena_name VARCHAR(200) NOT NULL,
+    FOREIGN KEY (home_team_name) REFERENCES Teams(name),
+    FOREIGN KEY (away_team_name) REFERENCES Teams(name),
+    FOREIGN KEY (arena_name) REFERENCES Arenas(name)
 );
 
 CREATE TABLE Rosters 
