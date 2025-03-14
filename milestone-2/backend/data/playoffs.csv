@@ -1,16 +1,16 @@
 playoff_id,team_name1,team_name2,series,season
-1,"Miami Heat","Boston Celtics","Quarterfinals",2023-2024
-2,"Orlando Magic","Cleveland Cavaliers","Quarterfinals",2023-2024
-3,"Indiana Pacers","Milwaukee Bucks","Quarterfinals",2023-2024
-4,"Philadelphia 76ers","New York Knicks","Quarterfinals",2023-2024
-5,"New Orleans Pelicans","Oklahoma City Thunder","Quarterfinals",2023-2024
-6,"Dallas Mavericks","Los Angeles Clippers","Quarterfinals",2023-2024
-7,"Phoenix Suns","Minnesota Timberwolves","Quarterfinals",2023-2024
-8,"Los Angeles Lakers","Denver Nuggets","Quarterfinals",2023-2024
-9,"Indiana Pacers","New York Knicks","Semifinals",2023-2024
-10,"Cleveland Cavaliers","Boston Celtics","Semifinals",2023-2024
-11,"Dallas Mavericks","Oklahoma City Thunder","Semifinals",2023-2024
-12,"Minnesota Timberwolves","Denver Nuggets","Semifinals",2023-2024
-13,"Indiana Pacers","Boston Celtics","Finals",2023-2024
-14,"Dallas Mavericks","Minnesota Timberwolves","Finals",2023-2024
-15,"Dallas Mavericks","Boston Celtics","Championship Finals",2023-2024
+1,"MIAMI HEAT","BOSTON CELTICS","Quarterfinals",2023-2024
+2,"ORLANDO MAGIC","CLEVELAND CAVALIERS","Quarterfinals",2023-2024
+3,"INDIANA PACERS","MILWAUKEE BUCKS","Quarterfinals",2023-2024
+4,"PHILADELPHIA 76ERS","NEW YORK KNICKS","Quarterfinals",2023-2024
+5,"NEW ORLEANS PELICANS","OKLAHOMA CITY THUNDER","Quarterfinals",2023-2024
+6,"DALLAS MAVERICKS","LOS ANGELES CLIPPERS","Quarterfinals",2023-2024
+7,"PHOENIX SUNS","MINNESOTA TIMBERWOLVES","Quarterfinals",2023-2024
+8,"LOS ANGELES LAKERS","DENVER NUGGETS","Quarterfinals",2023-2024
+9,"INDIANA PACERS","NEW YORK KNICKS","Semifinals",2023-2024
+10,"CLEVELAND CAVALIERS","BOSTON CELTICS","Semifinals",2023-2024
+11,"DALLAS MAVERICKS","OKLAHOMA CITY THUNDER","Semifinals",2023-2024
+12,"MINNESOTA TIMBERWOLVES","DENVER NUGGETS","Semifinals",2023-2024
+13,"INDIANA PACERS","BOSTON CELTICS","Finals",2023-2024
+14,"DALLAS MAVERICKS","MINNESOTA TIMBERWOLVES","Finals",2023-2024
+15,"DALLAS MAVERICKS","BOSTON CELTICS","Championship Finals",2023-2024
