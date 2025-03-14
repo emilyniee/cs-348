@@ -1,610 +1,658 @@
 player_id,name,age,position,team_id
-"1","Jayson Tatum",24,"Small Forward",1
-"2","Joel Embiid",28,"Center",2
-"3","Luka Dončić",23,"Point Guard",3
-"4","Shai Gilgeous-Alexander",24,"Point Guard",4
-"5","Giannis Antetokounmpo",28,"Shooting Guard",5
-"6","Anthony Edwards",21,"Power Forward",6
-"7","Julius Randle",28,"Shooting Guard",7
-"8","Donovan Mitchell",26,"Power Forward",8
-"9","Trae Young",24,"Point Guard",9
-"10","Zach LaVine",27,"Power Forward",10
-"11","Damian Lillard",32,"Point Guard",11
-"12","De'Aaron Fox",25,"Point Guard",12
-"13","DeMar DeRozan",33,"Small Forward",10
-"14","Jaylen Brown",26,"Small Forward",1
-"15","Pascal Siakam",28,"Shooting Guard",13
-"16","Lauri Markkanen",25,"Shooting Guard",14
-"17","Nikola Jokić",27,"Center",15
-"18","Jalen Green",20,"Power Forward",16
-"19","Jordan Poole",23,"Point Guard",17
-"20","Mikal Bridges",26,"Small Forward",18
-"20","Mikal Bridges",26,"Power Forward",19
-"21","Stephen Curry",34,"Point Guard",17
-"22","Jalen Brunson",26,"Point Guard",7
-"23","Kyrie Irving",30,"Point Guard",19
-"23","Kyrie Irving",30,"Power Forward",3
-"24","Ja Morant",23,"Point Guard",20
-"25","LeBron James",38,"Shooting Guard",21
-"26","CJ McCollum",31,"Point Guard",22
-"27","Bam Adebayo",25,"Center",23
-"28","Dejounte Murray",26,"Power Forward",9
-"29","Domantas Sabonis",26,"Center",12
-"30","Klay Thompson",32,"Small Forward",17
-"31","Kristaps Porziņģis",27,"Center",24
-"32","Darius Garland",23,"Point Guard",8
-"33","Franz Wagner",21,"Small Forward",25
-"34","Devin Booker",26,"Power Forward",18
-"35","Jimmy Butler",33,"Shooting Guard",23
-"36","Anthony Davis",29,"Center",21
-"37","Nikola Vučević",32,"Center",10
-"38","Paolo Banchero",20,"Shooting Guard",25
-"39","RJ Barrett",22,"Power Forward",7
-"40","Keldon Johnson",23,"Small Forward",26
-"41","Spencer Dinwiddie",29,"Power Forward",3
-"41","Spencer Dinwiddie",29,"Point Guard",19
-"42","Kevin Durant",34,"Shooting Guard",19
-"42","Kevin Durant",34,"Shooting Guard",18
-"43","Kyle Kuzma",27,"Shooting Guard",24
-"44","Tyler Herro",23,"Power Forward",23
-"45","Buddy Hield",30,"Small Forward",27
-"46","Fred VanVleet",28,"Point Guard",13
-"47","Paul George",32,"Small Forward",28
-"48","Terry Rozier",28,"Power Forward",29
-"49","Anfernee Simons",23,"Power Forward",11
-"50","Bennedict Mathurin",20,"Power Forward",27
-"51","Jamal Murray",25,"Point Guard",15
-"52","Jerami Grant",28,"Shooting Guard",11
-"53","Jrue Holiday",32,"Point Guard",5
-"54","Evan Mobley",21,"Shooting Guard",8
-"55","Bojan Bogdanović",33,"Shooting Guard",30
-"56","Jordan Clarkson",30,"Power Forward",14
-"57","D'Angelo Russell",26,"Point Guard",6
-"57","D'Angelo Russell",26,"Point Guard",21
-"58","Josh Giddey",20,"Shooting Guard",4
-"59","Desmond Bane",24,"Power Forward",20
-"60","Kawhi Leonard",31,"Small Forward",28
-"61","Brook Lopez",34,"Center",5
-"62","Harrison Barnes",30,"Shooting Guard",12
-"63","Tyrese Maxey",22,"Power Forward",2
-"64","James Harden",33,"Point Guard",2
-"65","Immanuel Quickley",23,"Power Forward",7
-"66","Jaden Ivey",20,"Power Forward",30
-"67","Deandre Ayton",24,"Center",18
-"68","Scottie Barnes",21,"Small Forward",13
-"69","Jaren Jackson Jr.",23,"Center",20
-"70","Bradley Beal",29,"Power Forward",24
-"71","Tyrese Haliburton",22,"Point Guard",27
-"72","Russell Westbrook",34,"Point Guard",21
-"72","Russell Westbrook",34,"Point Guard",28
-"73","Trey Murphy III",22,"Small Forward",22
-"74","Gary Trent Jr.",24,"Power Forward",13
-"75","P.J. Washington",24,"Shooting Guard",29
-"76","Kevin Huerter",24,"Power Forward",12
-"77","Kevin Porter Jr.",22,"Point Guard",16
-"78","OG Anunoby",25,"Small Forward",13
-"79","Jonas Valančiūnas",30,"Center",22
-"80","Christian Wood",27,"Center",3
-"81","Myles Turner",26,"Center",27
-"82","Brandon Ingram",25,"Small Forward",22
-"83","Aaron Gordon",27,"Shooting Guard",15
-"84","Alperen Şengün",20,"Center",16
-"85","Tobias Harris",30,"Small Forward",2
-"86","Michael Porter Jr.",24,"Small Forward",15
-"87","Saddiq Bey",23,"Small Forward",30
-"87","Saddiq Bey",23,"Small Forward",9
-"88","Jalen Williams",21,"Power Forward",4
-"89","Dillon Brooks",27,"Small Forward",20
-"90","Malik Monk",24,"Power Forward",12
-"91","KJ Martin",22,"Small Forward",16
-"92","De'Andre Hunter",25,"Small Forward",9
-"93","Malik Beasley",26,"Power Forward",14
-"93","Malik Beasley",26,"Power Forward",21
-"94","Tim Hardaway Jr.",30,"Small Forward",3
-"95","Norman Powell",29,"Power Forward",28
-"96","Derrick White",28,"Power Forward",1
-"97","Luguentz Dort",23,"Small Forward",4
-"98","Jabari Smith Jr.",19,"Shooting Guard",16
-"99","Malcolm Brogdon",30,"Point Guard",1
-"100","Bobby Portis",27,"Shooting Guard",5
-"101","Keegan Murray",22,"Small Forward",12
-"102","Kelly Oubre Jr.",27,"Small Forward",29
-"103","Jarrett Allen",24,"Center",8
-"104","Nic Claxton",23,"Center",19
-"105","Jaden McDaniels",22,"Small Forward",6
-"106","Rudy Gobert",30,"Center",6
-"107","John Collins",25,"Shooting Guard",9
-"108","Bruce Brown",26,"Small Forward",15
-"109","Max Strus",26,"Small Forward",23
-"110","Caris LeVert",28,"Power Forward",8
-"111","Jakob Poeltl",27,"Center",26
-"111","Jakob Poeltl",27,"Center",13
-"112","Tre Jones",23,"Point Guard",26
-"113","Wendell Carter Jr.",23,"Center",25
-"114","Mason Plumlee",32,"Center",29
-"114","Mason Plumlee",32,"Center",28
-"115","Eric Gordon",34,"Power Forward",16
-"115","Eric Gordon",34,"Power Forward",28
-"116","Kelly Olynyk",31,"Center",14
-"117","LaMelo Ball",21,"Point Guard",29
-"118","Markelle Fultz",24,"Point Guard",25
-"119","Austin Reaves",24,"Power Forward",21
-"120","Patrick Williams",21,"Shooting Guard",10
-"121","Dennis Schröder",29,"Point Guard",21
-"122","Tyus Jones",26,"Point Guard",20
-"123","Kentavious Caldwell-Pope",29,"Power Forward",15
-"124","Corey Kispert",23,"Small Forward",24
-"125","Chris Paul",37,"Point Guard",18
-"126","Ivica Zubac",25,"Center",28
-"127","Quentin Grimes",22,"Power Forward",7
-"128","Mike Conley",35,"Point Guard",14
-"128","Mike Conley",35,"Point Guard",6
-"129","Onyeka Okongwu",22,"Center",9
-"130","Shaedon Sharpe",19,"Power Forward",11
-"131","Killian Hayes",21,"Point Guard",30
-"132","Cole Anthony",22,"Point Guard",25
-"133","Naz Reid",23,"Center",6
-"134","De'Anthony Melton",24,"Power Forward",2
-"135","Clint Capela",28,"Center",9
-"136","Tari Eason",21,"Shooting Guard",16
-"137","Bogdan Bogdanović",30,"Power Forward",9
-"138","Jalen McDaniels",25,"Small Forward",29
-"138","Jalen McDaniels",25,"Small Forward",2
-"139","Zion Williamson",22,"Shooting Guard",22
-"140","Grayson Allen",27,"Power Forward",5
-"141","Josh Hart",27,"Small Forward",11
-"141","Josh Hart",27,"Small Forward",7
-"142","Aaron Nesmith",23,"Small Forward",27
-"143","Gordon Hayward",32,"Small Forward",29
-"144","Zach Collins",25,"Center",26
-"145","Marcus Morris",33,"Shooting Guard",28
-"146","Coby White",22,"Power Forward",10
-"147","Terance Mann",26,"Power Forward",28
-"148","Chris Boucher",30,"Shooting Guard",13
-"149","Andrew Nembhard",23,"Power Forward",27
-"150","Rui Hachimura",24,"Shooting Guard",24
-"150","Rui Hachimura",24,"Shooting Guard",21
-"151","Daniel Gafford",24,"Center",24
-"152","Jaylen Nowell",23,"Power Forward",6
-"153","Marcus Smart",28,"Point Guard",1
-"154","Devin Vassell",22,"Power Forward",26
-"155","Talen Horton-Tucker",22,"Power Forward",14
-"156","Naji Marshall",25,"Small Forward",22
-"157","Deni Avdija",22,"Small Forward",24
-"158","Santi Aldama",22,"Shooting Guard",20
-"159","Jusuf Nurkić",28,"Center",11
-"160","Reggie Jackson",32,"Point Guard",28
-"160","Reggie Jackson",32,"Point Guard",15
-"161","Isaiah Joe",23,"Power Forward",4
-"162","Ayo Dosunmu",23,"Power Forward",10
-"163","Collin Sexton",24,"Point Guard",14
-"164","Caleb Martin",27,"Small Forward",23
-"165","Walker Kessler",21,"Center",14
-"166","Donte DiVincenzo",26,"Power Forward",17
-"167","Malaki Branham",19,"Power Forward",26
-"168","Royce O'Neale",29,"Small Forward",19
-"169","Cedi Osman",27,"Small Forward",8
-"170","Jonathan Kuminga",20,"Shooting Guard",17
-"171","Bones Hyland",22,"Point Guard",15
-"171","Bones Hyland",22,"Point Guard",28
-"172","Doug McDermott",31,"Small Forward",26
-"173","Lonnie Walker IV",24,"Power Forward",21
-"174","Josh Richardson",29,"Power Forward",26
-"174","Josh Richardson",29,"Power Forward",22
-"175","Alec Burks",31,"Power Forward",30
-"176","Jevon Carter",27,"Point Guard",5
-"177","T.J. McConnell",30,"Point Guard",27
-"178","Cameron Johnson",26,"Shooting Guard",18
-"178","Cameron Johnson",26,"Shooting Guard",19
-"179","Herbert Jones",24,"Shooting Guard",22
-"180","Kyle Anderson",29,"Shooting Guard",6
-"181","Keita Bates-Diop",27,"Shooting Guard",26
-"182","Jalen Smith",22,"Center",27
-"183","Gabe Vincent",26,"Point Guard",23
-"184","Grant Williams",24,"Shooting Guard",1
-"185","AJ Griffin",19,"Small Forward",9
-"186","Shake Milton",26,"Power Forward",2
-"187","Georges Niang",29,"Shooting Guard",2
-"188","Monte Morris",27,"Point Guard",24
-"189","Bol Bol",23,"Shooting Guard",25
-"190","Andrew Wiggins",27,"Small Forward",17
-"191","Jarred Vanderbilt",23,"Shooting Guard",14
-"191","Jarred Vanderbilt",23,"Shooting Guard",21
-"192","Draymond Green",32,"Shooting Guard",17
-"193","Al Horford",36,"Center",1
-"194","Kyle Lowry",36,"Point Guard",23
-"195","Jeremy Sochan",19,"Shooting Guard",26
-"196","Jalen Duren",19,"Center",30
-"197","Damion Lee",30,"Power Forward",18
-"198","Cam Thomas",21,"Power Forward",19
-"199","Karl-Anthony Towns",27,"Shooting Guard",6
-"200","Moritz Wagner",25,"Center",25
-"201","Torrey Craig",32,"Shooting Guard",18
-"202","Thomas Bryant",25,"Center",21
-"202","Thomas Bryant",25,"Center",15
-"203","Kevon Looney",26,"Center",17
-"204","Isaiah Stewart",21,"Center",30
-"205","Joe Harris",31,"Small Forward",19
-"206","Trey Lyles",27,"Shooting Guard",12
-"207","Reggie Bullock",31,"Small Forward",3
-"208","Seth Curry",32,"Power Forward",19
-"209","Brandon Clarke",26,"Shooting Guard",20
-"210","Dorian Finney-Smith",29,"Shooting Guard",3
-"210","Dorian Finney-Smith",29,"Shooting Guard",19
-"211","Jose Alvarado",24,"Point Guard",22
-"212","Josh Green",22,"Power Forward",3
-"213","Luke Kennard",26,"Power Forward",28
-"213","Luke Kennard",26,"Power Forward",20
-"214","Jordan Nwora",24,"Small Forward",5
-"214","Jordan Nwora",24,"Small Forward",27
-"215","Troy Brown Jr.",23,"Small Forward",21
-"216","Devonte' Graham",27,"Point Guard",22
-"216","Devonte' Graham",27,"Point Guard",26
-"217","Nick Richards",25,"Center",29
-"218","Josh Okogie",24,"Power Forward",18
-"219","Jalen Suggs",21,"Power Forward",25
-"220","Hamidou Diallo",24,"Small Forward",30
-"221","Terrence Ross",31,"Power Forward",25
-"221","Terrence Ross",31,"Power Forward",18
-"222","Drew Eubanks",25,"Center",11
-"223","Tre Mann",21,"Point Guard",4
-"224","Sam Hauser",25,"Small Forward",1
-"225","Kevin Love",34,"Shooting Guard",8
-"225","Kevin Love",34,"Shooting Guard",23
-"226","Precious Achiuwa",23,"Center",13
-"227","Dwight Powell",31,"Center",3
-"228","Marvin Bagley III",23,"Center",30
-"229","Khris Middleton",31,"Small Forward",5
-"230","Obi Toppin",24,"Shooting Guard",7
-"231","Kendrick Nunn",27,"Power Forward",21
-"231","Kendrick Nunn",27,"Power Forward",24
-"232","Cameron Payne",28,"Point Guard",18
-"233","Taurean Prince",28,"Shooting Guard",6
-"234","Isaac Okoro",22,"Small Forward",8
-"235","Aaron Wiggins",24,"Power Forward",4
-"236","Nicolas Batum",34,"Shooting Guard",28
-"237","Dennis Smith Jr.",25,"Point Guard",29
-"238","Ochai Agbaji",22,"Power Forward",14
-"239","Pat Connaughton",30,"Small Forward",5
-"240","David Roddy",21,"Shooting Guard",20
-"241","Trendon Watford",22,"Shooting Guard",11
-"242","Jock Landale",27,"Center",18
-"243","Isaiah Jackson",21,"Center",27
-"244","Davion Mitchell",24,"Point Guard",12
-"245","James Wiseman",21,"Center",17
-"245","James Wiseman",21,"Center",30
-"246","Victor Oladipo",30,"Power Forward",23
-"247","Larry Nance Jr.",30,"Center",22
-"248","Jeff Green",36,"Shooting Guard",15
-"249","Mitchell Robinson",24,"Center",7
-"250","Terence Davis",25,"Power Forward",12
-"251","Xavier Tillman Sr.",24,"Center",20
-"252","Cory Joseph",31,"Point Guard",30
-"253","Kenrich Williams",28,"Shooting Guard",4
-"254","Jaden Hardy",20,"Power Forward",3
-"255","Anthony Lamb",25,"Small Forward",17
-"256","Patrick Beverley",34,"Power Forward",21
-"256","Patrick Beverley",34,"Point Guard",10
-"257","Kevin Knox",23,"Small Forward",30
-"257","Kevin Knox",23,"Shooting Guard",11
-"258","Jordan Goodwin",24,"Point Guard",24
-"259","Isaiah Hartenstein",24,"Center",7
-"260","Andre Drummond",29,"Center",10
-"261","Oshae Brissett",24,"Shooting Guard",27
-"262","Gary Harris",28,"Power Forward",25
-"263","Jalen Johnson",21,"Small Forward",9
-"264","Mark Williams",21,"Center",29
-"265","Cam Reddish",23,"Small Forward",7
-"265","Cam Reddish",23,"Small Forward",11
-"266","John Wall",32,"Point Guard",28
-"267","Mike Muscala",31,"Center",4
-"267","Mike Muscala",31,"Center",1
-"268","Will Barton",32,"Power Forward",24
-"268","Will Barton",32,"Power Forward",13
-"269","Edmond Sumner",27,"Power Forward",19
-"270","Alex Caruso",28,"Point Guard",10
-"271","Josh Christopher",21,"Power Forward",16
-"272","Wenyen Gabriel",25,"Center",21
-"273","Delon Wright",30,"Point Guard",24
-"274","JaMychal Green",32,"Shooting Guard",17
-"275","Goran Dragić",36,"Point Guard",10
-"275","Goran Dragić",36,"Point Guard",5
-"276","John Konchar",26,"Small Forward",20
-"277","Nickeil Alexander-Walker",24,"Power Forward",14
-"277","Nickeil Alexander-Walker",24,"Power Forward",6
-"278","Chris Duarte",25,"Small Forward",27
-"279","Dario Šarić",28,"Shooting Guard",18
-"279","Dario Šarić",28,"Center",4
-"280","Steven Adams",29,"Center",20
-"281","Christian Braun",21,"Power Forward",15
-"282","Nassir Little",22,"Small Forward",11
-"283","Isaiah Livers",24,"Shooting Guard",30
-"284","Landry Shamet",25,"Power Forward",18
-"285","Simone Fontecchio",27,"Small Forward",14
-"286","Lamar Stevens",25,"Small Forward",8
-"287","Mo Bamba",24,"Center",25
-"287","Mo Bamba",24,"Center",21
-"288","Yuta Watanabe",28,"Small Forward",19
-"289","Chimezie Metu",25,"Shooting Guard",12
-"290","Montrezl Harrell",29,"Center",2
-"291","Derrick Jones Jr.",25,"Shooting Guard",10
-"292","Joe Ingles",35,"Small Forward",5
-"293","T.J. Warren",29,"Shooting Guard",19
-"293","T.J. Warren",29,"Small Forward",18
-"294","Ty Jerome",25,"Power Forward",17
-"295","Moses Moody",20,"Power Forward",17
-"296","R.J. Hampton",21,"Power Forward",25
-"296","R.J. Hampton",21,"Power Forward",30
-"297","Vlatko Čančar",25,"Shooting Guard",15
-"298","Romeo Langford",23,"Power Forward",26
-"299","Théo Maledon",21,"Point Guard",29
-"300","Rudy Gay",36,"Shooting Guard",14
-"301","Matisse Thybulle",25,"Small Forward",2
-"301","Matisse Thybulle",25,"Power Forward",11
-"302","Jeremiah Robinson-Earl",22,"Shooting Guard",4
-"303","Ben Simmons",26,"Point Guard",19
-"304","Kris Dunn",28,"Point Guard",14
-"305","Robert Covington",32,"Shooting Guard",28
-"306","Jaylin Williams",20,"Center",4
-"307","Paul Reed",23,"Center",2
-"308","Jae'Sean Tate",27,"Small Forward",16
-"309","Robert Williams",25,"Center",1
-"310","Eugene Omoruyi",25,"Small Forward",4
-"310","Eugene Omoruyi",25,"Small Forward",30
-"311","Zeke Nnaji",22,"Shooting Guard",15
-"312","Aleksej Pokusevski",21,"Shooting Guard",4
-"313","Payton Pritchard",25,"Point Guard",1
-"314","Danuel House Jr.",29,"Small Forward",2
-"315","Duncan Robinson",28,"Small Forward",23
-"316","MarJon Beauchamp",22,"Small Forward",5
-"317","P.J. Tucker",37,"Shooting Guard",2
-"318","Bismack Biyombo",30,"Center",18
-"319","Sandro Mamukelashvili",23,"Center",5
-"319","Sandro Mamukelashvili",23,"Center",26
-"320","Willy Hernangómez",28,"Center",22
-"321","JT Thor",20,"Shooting Guard",29
-"322","Luke Kornet",27,"Center",1
-"323","Garrison Mathews",26,"Power Forward",16
-"323","Garrison Mathews",26,"Power Forward",9
-"324","Austin Rivers",30,"Power Forward",6
-"325","Ish Wainright",28,"Small Forward",18
-"326","Aaron Holiday",26,"Point Guard",9
-"327","Malachi Flynn",24,"Point Guard",13
-"328","Bryce McGowens",20,"Power Forward",29
-"329","Patty Mills",34,"Point Guard",19
-"330","Duane Washington Jr.",22,"Power Forward",18
-"331","Thaddeus Young",34,"Shooting Guard",13
-"332","Cade Cunningham",21,"Point Guard",30
-"333","Haywood Highsmith",26,"Shooting Guard",23
-"334","Jaxson Hayes",22,"Center",22
-"335","George Hill",36,"Point Guard",5
-"335","George Hill",36,"Power Forward",27
-"336","Dyson Daniels",19,"Point Guard",22
-"337","Day'Ron Sharpe",21,"Center",19
-"338","Daishen Nix",20,"Point Guard",16
-"339","Usman Garuba",20,"Center",16
-"340","Darius Bazley",22,"Center",4
-"340","Darius Bazley",22,"Center",18
-"341","Miles McBride",22,"Point Guard",7
-"342","Svi Mykhailiuk",25,"Small Forward",7
-"342","Svi Mykhailiuk",25,"Small Forward",29
-"343","Maxi Kleber",31,"Shooting Guard",3
-"344","Jabari Walker",20,"Small Forward",11
-"345","Lindy Waters III",25,"Power Forward",4
-"346","Ziaire Williams",21,"Small Forward",20
-"347","Dāvis Bertāns",30,"Shooting Guard",3
-"348","Dean Wade",26,"Shooting Guard",8
-"349","Justin Holiday",33,"Small Forward",9
-"349","Justin Holiday",33,"Small Forward",3
-"350","Charles Bassey",22,"Center",26
-"351","DeAndre Jordan",34,"Center",15
-"352","Dewayne Dedmon",33,"Center",23
-"352","Dewayne Dedmon",33,"Center",2
-"353","Justise Winslow",26,"Shooting Guard",11
-"354","Anthony Gill",30,"Shooting Guard",24
-"355","Ousmane Dieng",19,"Shooting Guard",4
-"356","Caleb Houstan",20,"Small Forward",25
-"357","James Bouknight",22,"Power Forward",29
-"358","Keon Johnson",20,"Power Forward",11
-"359","JaVale McGee",35,"Center",3
-"360","Blake Wesley",19,"Power Forward",26
-"361","Rodney McGruder",31,"Power Forward",30
-"362","Christian Koloko",22,"Center",13
-"363","Luka Garza",24,"Center",6
-"364","Wesley Matthews",36,"Small Forward",5
-"365","Jericho Sims",24,"Center",7
-"366","Stanley Johnson",26,"Small Forward",26
-"367","Amir Coffey",25,"Small Forward",28
-"368","Isaiah Roby",24,"Shooting Guard",26
-"369","Ricky Rubio",32,"Point Guard",8
-"370","Blake Griffin",33,"Center",1
-"371","Taj Gibson",37,"Center",24
-"372","Goga Bitadze",23,"Center",27
-"372","Goga Bitadze",23,"Center",25
-"373","Julian Champagnie",21,"Small Forward",2
-"373","Julian Champagnie",21,"Small Forward",26
-"374","Evan Fournier",30,"Power Forward",7
-"375","Javonte Green",29,"Small Forward",10
-"376","Johnny Davis",20,"Power Forward",24
-"377","Jordan McLaughlin",26,"Point Guard",6
-"378","Kai Jones",22,"Center",29
-"379","Raul Neto",30,"Point Guard",8
-"380","Moses Brown",23,"Center",28
-"380","Moses Brown",23,"Center",19
-"381","Admiral Schofield",25,"Shooting Guard",25
-"382","Juan Toscano-Anderson",29,"Small Forward",21
-"382","Juan Toscano-Anderson",29,"Small Forward",14
-"383","A.J. Green",23,"Power Forward",5
-"384","Bruno Fernando",24,"Center",16
-"384","Bruno Fernando",24,"Center",9
-"385","Derrick Rose",34,"Point Guard",7
-"386","Saben Lee",23,"Point Guard",2
-"386","Saben Lee",23,"Point Guard",18
-"387","TyTy Washington Jr.",21,"Point Guard",16
-"388","Brandon Boston Jr.",21,"Small Forward",28
-"389","Dalano Banton",23,"Point Guard",13
-"390","Damian Jones",27,"Center",21
-"390","Damian Jones",27,"Center",14
-"391","Kevon Harris",25,"Power Forward",25
-"392","Furkan Korkmaz",25,"Power Forward",2
-"393","Nathan Knight",25,"Center",6
-"394","Frank Ntilikina",24,"Power Forward",3
-"395","Markieff Morris",33,"Shooting Guard",19
-"395","Markieff Morris",33,"Shooting Guard",3
-"396","Richaun Holmes",29,"Center",12
-"397","Max Christie",19,"Power Forward",21
-"398","Chuma Okeke",24,"Small Forward",25
-"399","Udoka Azubuike",23,"Center",14
-"400","Jae Crowder",32,"Shooting Guard",5
-"401","Patrick Baldwin Jr.",20,"Small Forward",17
-"402","Juancho Hernangómez",27,"Shooting Guard",13
-"403","Matt Ryan",25,"Small Forward",21
-"403","Matt Ryan",25,"Small Forward",6
-"404","Gorgui Dieng",33,"Center",26
-"405","Kenneth Lofton Jr.",20,"Shooting Guard",20
-"406","Orlando Robinson",22,"Center",23
-"407","Kira Lewis Jr.",21,"Point Guard",22
-"408","McKinley Wright IV",24,"Point Guard",3
-"409","Robin Lopez",34,"Center",8
-"410","Dominick Barlow",19,"Shooting Guard",26
-"411","Ish Smith",34,"Point Guard",15
-"412","Jake LaRavia",21,"Shooting Guard",20
-"413","Boban Marjanović",34,"Center",16
-"414","Gary Payton II",30,"Power Forward",11
-"414","Gary Payton II",30,"Power Forward",17
-"415","Kessler Edwards",22,"Small Forward",19
-"415","Kessler Edwards",22,"Small Forward",12
-"416","Jamal Cain",23,"Shooting Guard",23
-"417","Cody Zeller",30,"Center",23
-"418","Theo Pinson",27,"Power Forward",3
-"419","Skylar Mays",25,"Point Guard",11
-"420","Bryn Forbes",29,"Power Forward",6
-"421","Davon Reed",27,"Power Forward",15
-"421","Davon Reed",27,"Power Forward",21
-"422","Frank Kaminsky",29,"Center",9
-"422","Frank Kaminsky",29,"Center",16
-"423","Terry Taylor",23,"Shooting Guard",27
-"423","Terry Taylor",23,"Shooting Guard",10
-"424","Johnny Juzang",21,"Power Forward",14
-"425","David Duke Jr.",23,"Power Forward",19
-"426","Dalen Terry",20,"Power Forward",10
-"427","Nikola Jović",19,"Shooting Guard",23
-"428","Kennedy Chandler",20,"Point Guard",20
-"429","Peyton Watson",20,"Power Forward",15
-"430","Kemba Walker",32,"Point Guard",3
-"431","Luka Šamanić",23,"Shooting Guard",14
-"432","Serge Ibaka",33,"Center",5
-"433","Jeff Dowtin",25,"Point Guard",13
-"434","Danny Green",35,"Power Forward",20
-"434","Danny Green",35,"Power Forward",8
-"435","Moussa Diabaté",21,"Center",28
-"436","Mamadi Diakite",26,"Center",8
-"437","Quenton Jackson",24,"Point Guard",24
-"438","A.J. Lawson",22,"Power Forward",6
-"438","A.J. Lawson",22,"Power Forward",3
-"439","Jonathan Isaac",25,"Shooting Guard",25
-"440","Jeenathan Williams",23,"Power Forward",11
-"441","Trent Forrest",24,"Power Forward",9
-"442","Thanasis Antetokounmpo",30,"Shooting Guard",5
-"443","Jay Huff",24,"Center",24
-"444","James Johnson",35,"Shooting Guard",27
-"445","Garrett Temple",36,"Power Forward",22
-"446","Lindell Wigginton",24,"Point Guard",5
-"447","Daniel Theis",30,"Center",27
-"448","Matthew Dellavedova",32,"Point Guard",12
-"449","Josh Minott",20,"Small Forward",6
-"450","KZ Okpala",23,"Shooting Guard",12
-"451","John Butler",20,"Center",11
-"452","Jared Rhoden",23,"Power Forward",30
-"453","Jarrett Culver",23,"Small Forward",9
-"454","Shaquille Harrison",29,"Power Forward",11
-"455","Otto Porter Jr.",29,"Small Forward",13
-"456","Dru Smith",25,"Power Forward",23
-"456","Dru Smith",25,"Power Forward",19
-"457","Khem Birch",30,"Center",13
-"458","Alex Len",29,"Center",12
-"459","Meyers Leonard",30,"Center",5
-"460","Wendell Moore Jr.",21,"Power Forward",6
-"461","Jaden Springer",20,"Power Forward",2
-"462","Jason Preston",23,"Point Guard",28
-"463","Omer Yurtseven",24,"Center",23
-"464","Xavier Cooks",27,"Shooting Guard",24
-"465","Jared Butler",22,"Point Guard",4
-"466","Vit Krejci",22,"Point Guard",9
-"467","Olivier Sarr",23,"Center",4
-"468","Cody Martin",27,"Small Forward",29
-"469","Nerlens Noel",28,"Center",30
-"469","Nerlens Noel",28,"Center",19
-"470","Isaiah Mobley",23,"Shooting Guard",8
-"471","Vince Williams Jr.",22,"Power Forward",20
-"472","Greg Brown III",21,"Shooting Guard",11
-"473","Jordan Hall",21,"Small Forward",26
-"474","Joshua Primo",20,"Power Forward",26
-"475","Udonis Haslem",42,"Center",23
-"476","Ryan Arcidiacono",28,"Point Guard",7
-"476","Ryan Arcidiacono",28,"Point Guard",11
-"477","Mac McClung",24,"Power Forward",2
-"478","Sam Merrill",26,"Power Forward",8
-"479","Noah Vonleh",27,"Center",1
-"480","Keon Ellis",23,"Power Forward",12
-"481","Micah Potter",24,"Shooting Guard",14
-"482","Gabe York",29,"Power Forward",27
-"483","Ryan Rollins",20,"Point Guard",17
-"484","Jarrell Brantley",26,"Shooting Guard",14
-"485","PJ Dozier",26,"Small Forward",12
-"486","Tyrese Martin",23,"Power Forward",9
-"487","Trevelin Queen",25,"Power Forward",27
-"488","Jack White",25,"Small Forward",15
-"489","Ron Harper Jr.",22,"Shooting Guard",13
-"490","Justin Jackson",27,"Small Forward",1
-"491","Carlik Jones",25,"Point Guard",10
-"492","Louis King",23,"Shooting Guard",2
-"493","Tony Bradley",25,"Center",10
-"494","JD Davison",20,"Power Forward",1
-"495","Michael Carter-Williams",31,"Point Guard",25
-"496","Andre Iguodala",39,"Shooting Guard",17
-"497","Justin Minaya",23,"Small Forward",11
-"498","Xavier Sneed",25,"Small Forward",29
-"499","Buddy Boeheim",23,"Small Forward",30
-"500","RaiQuan Gray",23,"Shooting Guard",19
-"501","Jamaree Bouyea",23,"Point Guard",23
-"501","Jamaree Bouyea",23,"Point Guard",24
-"502","Darius Days",23,"Small Forward",16
-"503","Scotty Pippen Jr.",22,"Point Guard",21
-"504","Jay Scrubb",22,"Power Forward",25
-"505","Neemias Queta",23,"Center",12
-"506","Justin Champagnie",21,"Small Forward",13
-"506","Justin Champagnie",21,"Small Forward",1
-"507","Facundo Campazzo",31,"Point Guard",3
-"508","Lester Quiñones",22,"Power Forward",17
-"509","Kendall Brown",19,"Power Forward",27
-"510","Tyler Dorsey",26,"Small Forward",3
-"511","Trevor Hudgins",23,"Point Guard",16
-"512","Cole Swider",23,"Small Forward",21
-"513","Isaiah Todd",21,"Shooting Guard",24
-"514","Joe Wieskamp",23,"Small Forward",13
-"515","Chance Comanche",26,"Center",11
-"516","Alize Johnson",26,"Shooting Guard",26
-"517","Xavier Moon",28,"Power Forward",28
-"518","Leandro Bolmaro",22,"Small Forward",14
-"519","Vernon Carey Jr.",21,"Center",24
-"520","Mfiondu Kabengele",25,"Shooting Guard",1
-"521","Marko Simonovic",23,"Center",10
-"522","Malcolm Hill",27,"Small Forward",10
-"523","Kobi Simmons",25,"Power Forward",29
-"524","Dylan Windler",26,"Small Forward",8
-"525","Braxton Key",25,"Small Forward",30
-"526","Dereon Seabron",22,"Power Forward",22
-"527","Donovan Williams",21,"Power Forward",9
-"528","Devon Dotson",23,"Point Guard",24
-"529","Jacob Gilyard",24,"Point Guard",20
-"530","Trevor Keels",19,"Power Forward",7
-"531","Jordan Schakel",24,"Small Forward",24
-"532","Chima Moneke",27,"Small Forward",12
-"533","Chris Silva",26,"Shooting Guard",3
-"534","Stanley Umude",23,"Power Forward",30
-"535","Sterling Brown",27,"Small Forward",21
-"536","Deonte Burton",29,"Shooting Guard",12
-"537","Michael Foster Jr.",20,"Shooting Guard",2
-"538","Frank Jackson",24,"Point Guard",14
-"539","Alondes Williams",23,"Power Forward",19
+1,"Luka Dončić",24,"POINT GUARD","DALLAS MAVERICKS"
+2,"Shai Gilgeous-Alexander",25,"POINT GUARD","OKLAHOMA CITY THUNDER"
+3,"Giannis Antetokounmpo",29,"POWER FORWARD","MILWAUKEE BUCKS"
+4,"Jalen Brunson",27,"POINT GUARD","NEW YORK KNICKS"
+5,"Nikola Jokić",28,"CENTER","DENVER NUGGETS"
+6,"Anthony Edwards",22,"SHOOTING GUARD","MINNESOTA TIMBERWOLVES"
+7,"Kevin Durant",35,"POWER FORWARD","PHOENIX SUNS"
+8,"Jayson Tatum",25,"POWER FORWARD","BOSTON CELTICS"
+9,"De'Aaron Fox",26,"POINT GUARD","SACRAMENTO KINGS"
+10,"Stephen Curry",35,"POINT GUARD","GOLDEN STATE WARRIORS"
+11,"DeMar DeRozan",34,"SMALL FORWARD","CHICAGO BULLS"
+12,"Anthony Davis",30,"CENTER","LOS ANGELES LAKERS"
+13,"Devin Booker",27,"POINT GUARD","PHOENIX SUNS"
+14,"LeBron James",39,"POWER FORWARD","LOS ANGELES LAKERS"
+15,"Tyrese Maxey",23,"POINT GUARD","PHILADELPHIA 76ERS"
+16,"Paolo Banchero",21,"POWER FORWARD","ORLANDO MAGIC"
+17,"Damian Lillard",33,"POINT GUARD","MILWAUKEE BUCKS"
+18,"Dejounte Murray",27,"SHOOTING GUARD","ATLANTA HAWKS"
+19,"Pascal Siakam",29,"POWER FORWARD","TORONTO RAPTORS"
+20,"Pascal Siakam",29,"POWER FORWARD","INDIANA PACERS"
+21,"Paul George",33,"POWER FORWARD","LOS ANGELES CLIPPERS"
+22,"Kawhi Leonard",32,"SMALL FORWARD","LOS ANGELES CLIPPERS"
+23,"Jaylen Brown",27,"SMALL FORWARD","BOSTON CELTICS"
+24,"Jalen Green",21,"SHOOTING GUARD","HOUSTON ROCKETS"
+25,"Mikal Bridges",27,"SMALL FORWARD","BROOKLYN NETS"
+26,"Zion Williamson",23,"POWER FORWARD","NEW ORLEANS PELICANS"
+27,"Domantas Sabonis",27,"CENTER","SACRAMENTO KINGS"
+28,"Kyle Kuzma",28,"POWER FORWARD","WASHINGTON WIZARDS"
+29,"Victor Wembanyama",20,"CENTER","SAN ANTONIO SPURS"
+30,"Coby White",23,"POINT GUARD","CHICAGO BULLS"
+31,"Kyrie Irving",31,"SHOOTING GUARD","DALLAS MAVERICKS"
+32,"Jaren Jackson Jr.",24,"CENTER","MEMPHIS GRIZZLIES"
+33,"Cam Thomas",22,"SHOOTING GUARD","BROOKLYN NETS"
+34,"Donovan Mitchell",27,"SHOOTING GUARD","CLEVELAND CAVALIERS"
+35,"Collin Sexton",25,"SHOOTING GUARD","UTAH JAZZ"
+36,"Miles Bridges",25,"SMALL FORWARD","CHARLOTTE HORNETS"
+37,"Franz Wagner",22,"SMALL FORWARD","ORLANDO MAGIC"
+38,"Cade Cunningham",22,"POINT GUARD","DETROIT PISTONS"
+39,"Tyrese Haliburton",23,"POINT GUARD","INDIANA PACERS"
+40,"Trae Young",25,"POINT GUARD","ATLANTA HAWKS"
+41,"Klay Thompson",33,"SMALL FORWARD","GOLDEN STATE WARRIORS"
+42,"Nikola Vučević",33,"CENTER","CHICAGO BULLS"
+43,"D'Angelo Russell",27,"POINT GUARD","LOS ANGELES LAKERS"
+44,"Bam Adebayo",26,"CENTER","MIAMI HEAT"
+45,"Chet Holmgren",21,"CENTER","OKLAHOMA CITY THUNDER"
+46,"Jordan Poole",24,"SHOOTING GUARD","WASHINGTON WIZARDS"
+47,"Michael Porter Jr.",25,"SMALL FORWARD","DENVER NUGGETS"
+48,"Jalen Williams",22,"POWER FORWARD","OKLAHOMA CITY THUNDER"
+49,"Joel Embiid",29,"CENTER","PHILADELPHIA 76ERS"
+50,"Karl-Anthony Towns",28,"POWER FORWARD","MINNESOTA TIMBERWOLVES"
+51,"Bogdan Bogdanović",31,"SHOOTING GUARD","ATLANTA HAWKS"
+52,"Brandon Ingram",26,"SMALL FORWARD","NEW ORLEANS PELICANS"
+53,"Alperen Şengün",21,"CENTER","HOUSTON ROCKETS"
+54,"Devin Vassell",23,"SHOOTING GUARD","SAN ANTONIO SPURS"
+55,"CJ McCollum",32,"POINT GUARD","NEW ORLEANS PELICANS"
+56,"Myles Turner",27,"CENTER","INDIANA PACERS"
+57,"Austin Reaves",25,"SHOOTING GUARD","LOS ANGELES LAKERS"
+58,"Brandon Miller",21,"SMALL FORWARD","CHARLOTTE HORNETS"
+59,"Lauri Markkanen",26,"POWER FORWARD","UTAH JAZZ"
+60,"Jarrett Allen",25,"CENTER","CLEVELAND CAVALIERS"
+61,"Fred VanVleet",29,"POINT GUARD","HOUSTON ROCKETS"
+62,"Donte DiVincenzo",27,"SHOOTING GUARD","NEW YORK KNICKS"
+63,"Jamal Murray",26,"POINT GUARD","DENVER NUGGETS"
+64,"Jimmy Butler",34,"POWER FORWARD","MIAMI HEAT"
+65,"Terry Rozier",29,"SHOOTING GUARD","CHARLOTTE HORNETS"
+66,"Terry Rozier",29,"POINT GUARD","MIAMI HEAT"
+67,"Tobias Harris",31,"POWER FORWARD","PHILADELPHIA 76ERS"
+68,"James Harden",34,"POINT GUARD","LOS ANGELES CLIPPERS"
+69,"Scottie Barnes",22,"SHOOTING GUARD","TORONTO RAPTORS"
+70,"Jonathan Kuminga",21,"POWER FORWARD","GOLDEN STATE WARRIORS"
+71,"Jaden Ivey",21,"SHOOTING GUARD","DETROIT PISTONS"
+72,"Keegan Murray",23,"SMALL FORWARD","SACRAMENTO KINGS"
+73,"RJ Barrett",23,"SHOOTING GUARD","NEW YORK KNICKS"
+74,"RJ Barrett",23,"SHOOTING GUARD","TORONTO RAPTORS"
+75,"Immanuel Quickley",24,"SHOOTING GUARD","NEW YORK KNICKS"
+76,"Immanuel Quickley",24,"POINT GUARD","TORONTO RAPTORS"
+77,"Kristaps Porziņģis",28,"CENTER","BOSTON CELTICS"
+78,"Tim Hardaway Jr.",31,"SMALL FORWARD","DALLAS MAVERICKS"
+79,"Jerami Grant",29,"POWER FORWARD","PORTLAND TRAIL BLAZERS"
+80,"Bobby Portis",28,"POWER FORWARD","MILWAUKEE BUCKS"
+81,"Dennis Schröder",30,"POINT GUARD","TORONTO RAPTORS"
+82,"Dennis Schröder",30,"POINT GUARD","BROOKLYN NETS"
+83,"Malik Monk",25,"SHOOTING GUARD","SACRAMENTO KINGS"
+84,"Derrick White",29,"SHOOTING GUARD","BOSTON CELTICS"
+85,"Deni Avdija",23,"SMALL FORWARD","WASHINGTON WIZARDS"
+86,"Julius Randle",29,"POWER FORWARD","NEW YORK KNICKS"
+87,"Naz Reid",24,"POWER FORWARD","MINNESOTA TIMBERWOLVES"
+88,"Keldon Johnson",24,"SMALL FORWARD","SAN ANTONIO SPURS"
+89,"Corey Kispert",24,"SMALL FORWARD","WASHINGTON WIZARDS"
+90,"Rudy Gobert",31,"CENTER","MINNESOTA TIMBERWOLVES"
+91,"Norman Powell",30,"SHOOTING GUARD","LOS ANGELES CLIPPERS"
+92,"Kelly Oubre Jr.",28,"SMALL FORWARD","PHILADELPHIA 76ERS"
+93,"Jabari Smith Jr.",20,"POWER FORWARD","HOUSTON ROCKETS"
+94,"Anfernee Simons",24,"SHOOTING GUARD","PORTLAND TRAIL BLAZERS"
+95,"Darius Garland",24,"POINT GUARD","CLEVELAND CAVALIERS"
+96,"John Collins",26,"POWER FORWARD","UTAH JAZZ"
+97,"Grayson Allen",28,"SHOOTING GUARD","PHOENIX SUNS"
+98,"Aaron Gordon",28,"POWER FORWARD","DENVER NUGGETS"
+99,"Buddy Hield",31,"SMALL FORWARD","INDIANA PACERS"
+100,"Buddy Hield",31,"SHOOTING GUARD","PHILADELPHIA 76ERS"
+101,"Jonas Valančiūnas",31,"CENTER","NEW ORLEANS PELICANS"
+102,"Harrison Barnes",31,"POWER FORWARD","SACRAMENTO KINGS"
+103,"Desmond Bane",25,"SHOOTING GUARD","MEMPHIS GRIZZLIES"
+104,"Brook Lopez",35,"CENTER","MILWAUKEE BUCKS"
+105,"Josh Giddey",21,"SHOOTING GUARD","OKLAHOMA CITY THUNDER"
+106,"Keyonte George",20,"POINT GUARD","UTAH JAZZ"
+107,"Gary Trent Jr.",25,"SHOOTING GUARD","TORONTO RAPTORS"
+108,"Bradley Beal",30,"SHOOTING GUARD","PHOENIX SUNS"
+109,"Caris LeVert",29,"SHOOTING GUARD","CLEVELAND CAVALIERS"
+110,"Jalen Suggs",22,"SHOOTING GUARD","ORLANDO MAGIC"
+111,"Jordan Clarkson",31,"SHOOTING GUARD","UTAH JAZZ"
+112,"Andrew Wiggins",28,"SMALL FORWARD","GOLDEN STATE WARRIORS"
+113,"P.J. Washington",25,"POWER FORWARD","CHARLOTTE HORNETS"
+114,"P.J. Washington",25,"POWER FORWARD","DALLAS MAVERICKS"
+115,"Cole Anthony",23,"POINT GUARD","ORLANDO MAGIC"
+116,"Ayo Dosunmu",24,"SHOOTING GUARD","CHICAGO BULLS"
+117,"Rui Hachimura",25,"POWER FORWARD","LOS ANGELES LAKERS"
+118,"Deandre Ayton",25,"CENTER","PORTLAND TRAIL BLAZERS"
+119,"Dillon Brooks",28,"SMALL FORWARD","HOUSTON ROCKETS"
+120,"Jalen Johnson",22,"SMALL FORWARD","ATLANTA HAWKS"
+121,"De'Andre Hunter",26,"SMALL FORWARD","ATLANTA HAWKS"
+122,"Malik Beasley",27,"SHOOTING GUARD","MILWAUKEE BUCKS"
+123,"Jaime Jaquez Jr.",22,"SMALL FORWARD","MIAMI HEAT"
+124,"Aaron Nesmith",24,"SMALL FORWARD","INDIANA PACERS"
+125,"Tyler Herro",24,"SHOOTING GUARD","MIAMI HEAT"
+126,"Duncan Robinson",29,"SMALL FORWARD","MIAMI HEAT"
+127,"Mike Conley",36,"POINT GUARD","MINNESOTA TIMBERWOLVES"
+128,"Scoot Henderson",19,"POINT GUARD","PORTLAND TRAIL BLAZERS"
+129,"Moritz Wagner",26,"CENTER","ORLANDO MAGIC"
+130,"Bojan Bogdanović",34,"POWER FORWARD","DETROIT PISTONS"
+131,"Bojan Bogdanović",34,"SMALL FORWARD","NEW YORK KNICKS"
+132,"Saddiq Bey",24,"SMALL FORWARD","ATLANTA HAWKS"
+133,"Jeremy Sochan",20,"POWER FORWARD","SAN ANTONIO SPURS"
+134,"Luguentz Dort",24,"SMALL FORWARD","OKLAHOMA CITY THUNDER"
+135,"Jrue Holiday",33,"POINT GUARD","BOSTON CELTICS"
+136,"Bennedict Mathurin",21,"SMALL FORWARD","INDIANA PACERS"
+137,"Max Strus",27,"SMALL FORWARD","CLEVELAND CAVALIERS"
+138,"Obi Toppin",25,"POWER FORWARD","INDIANA PACERS"
+139,"Trey Murphy III",23,"SMALL FORWARD","NEW ORLEANS PELICANS"
+140,"Nic Claxton",24,"CENTER","BROOKLYN NETS"
+141,"Jalen Duren",20,"CENTER","DETROIT PISTONS"
+142,"Herbert Jones",25,"SMALL FORWARD","NEW ORLEANS PELICANS"
+143,"Clint Capela",29,"CENTER","ATLANTA HAWKS"
+144,"Reggie Jackson",33,"POINT GUARD","DENVER NUGGETS"
+145,"Jusuf Nurkić",29,"CENTER","PHOENIX SUNS"
+146,"Khris Middleton",32,"SMALL FORWARD","MILWAUKEE BUCKS"
+147,"Daniel Gafford",25,"CENTER","WASHINGTON WIZARDS"
+148,"Daniel Gafford",25,"POWER FORWARD","DALLAS MAVERICKS"
+149,"Spencer Dinwiddie",30,"POINT GUARD","BROOKLYN NETS"
+150,"Spencer Dinwiddie",30,"POINT GUARD","LOS ANGELES LAKERS"
+151,"Ivica Zubac",26,"CENTER","LOS ANGELES CLIPPERS"
+152,"Tyus Jones",27,"POINT GUARD","WASHINGTON WIZARDS"
+153,"Payton Pritchard",26,"POINT GUARD","BOSTON CELTICS"
+154,"Evan Mobley",22,"POWER FORWARD","CLEVELAND CAVALIERS"
+155,"Grant Williams",25,"POWER FORWARD","DALLAS MAVERICKS"
+156,"Grant Williams",25,"POWER FORWARD","CHARLOTTE HORNETS"
+157,"Zach Collins",26,"CENTER","SAN ANTONIO SPURS"
+158,"Cameron Johnson",27,"POWER FORWARD","BROOKLYN NETS"
+159,"Tre Jones",24,"POINT GUARD","SAN ANTONIO SPURS"
+160,"Georges Niang",30,"POWER FORWARD","CLEVELAND CAVALIERS"
+161,"Kentavious Caldwell-Pope",30,"SHOOTING GUARD","DENVER NUGGETS"
+162,"Kelly Olynyk",32,"CENTER","UTAH JAZZ"
+163,"Kelly Olynyk",32,"CENTER","TORONTO RAPTORS"
+164,"Josh Hart",28,"SMALL FORWARD","NEW YORK KNICKS"
+165,"Jaden McDaniels",23,"SMALL FORWARD","MINNESOTA TIMBERWOLVES"
+166,"Russell Westbrook",35,"POINT GUARD","LOS ANGELES CLIPPERS"
+167,"Eric Gordon",35,"SHOOTING GUARD","PHOENIX SUNS"
+168,"OG Anunoby",26,"SMALL FORWARD","TORONTO RAPTORS"
+169,"OG Anunoby",26,"SMALL FORWARD","NEW YORK KNICKS"
+170,"T.J. McConnell",31,"POINT GUARD","INDIANA PACERS"
+171,"Bruce Brown",27,"SHOOTING GUARD","INDIANA PACERS"
+172,"Bruce Brown",27,"POINT GUARD","TORONTO RAPTORS"
+173,"Alex Caruso",29,"SHOOTING GUARD","CHICAGO BULLS"
+174,"Sam Hauser",26,"SMALL FORWARD","BOSTON CELTICS"
+175,"GG Jackson II",19,"POWER FORWARD","MEMPHIS GRIZZLIES"
+176,"Taurean Prince",29,"POWER FORWARD","LOS ANGELES LAKERS"
+177,"Simone Fontecchio",28,"SMALL FORWARD","UTAH JAZZ"
+178,"Simone Fontecchio",28,"SMALL FORWARD","DETROIT PISTONS"
+179,"Malaki Branham",20,"POINT GUARD","SAN ANTONIO SPURS"
+180,"Alec Burks",32,"SHOOTING GUARD","DETROIT PISTONS"
+181,"Alec Burks",32,"SHOOTING GUARD","NEW YORK KNICKS"
+182,"Brandin Podziemski",20,"SHOOTING GUARD","GOLDEN STATE WARRIORS"
+183,"Andre Drummond",30,"CENTER","CHICAGO BULLS"
+184,"Terance Mann",27,"SHOOTING GUARD","LOS ANGELES CLIPPERS"
+185,"Derrick Jones Jr.",26,"SMALL FORWARD","DALLAS MAVERICKS"
+186,"Nickeil Alexander-Walker",25,"SHOOTING GUARD","MINNESOTA TIMBERWOLVES"
+187,"Kevin Huerter",25,"SHOOTING GUARD","SACRAMENTO KINGS"
+188,"Santi Aldama",23,"POWER FORWARD","MEMPHIS GRIZZLIES"
+189,"Nick Richards",26,"CENTER","CHARLOTTE HORNETS"
+190,"Isaac Okoro",23,"SMALL FORWARD","CLEVELAND CAVALIERS"
+191,"Caleb Martin",28,"SMALL FORWARD","MIAMI HEAT"
+192,"Jabari Walker",21,"SMALL FORWARD","PORTLAND TRAIL BLAZERS"
+193,"Isaiah Joe",24,"SHOOTING GUARD","OKLAHOMA CITY THUNDER"
+194,"Andrew Nembhard",24,"POINT GUARD","INDIANA PACERS"
+195,"Duop Reath",27,"CENTER","PORTLAND TRAIL BLAZERS"
+196,"Malcolm Brogdon",31,"POINT GUARD","PORTLAND TRAIL BLAZERS"
+197,"Royce O'Neale",30,"SMALL FORWARD","BROOKLYN NETS"
+198,"Royce O'Neale",30,"SMALL FORWARD","PHOENIX SUNS"
+199,"Wendell Carter Jr.",24,"CENTER","ORLANDO MAGIC"
+200,"Jalen Smith",23,"CENTER","INDIANA PACERS"
+201,"Christian Braun",22,"SHOOTING GUARD","DENVER NUGGETS"
+202,"Paul Reed",24,"CENTER","PHILADELPHIA 76ERS"
+203,"Amen Thompson",21,"SMALL FORWARD","HOUSTON ROCKETS"
+204,"Marcus Sasser",23,"POINT GUARD","DETROIT PISTONS"
+205,"Marvin Bagley III",24,"CENTER","DETROIT PISTONS"
+206,"Marvin Bagley III",24,"CENTER","WASHINGTON WIZARDS"
+207,"Isaiah Hartenstein",25,"CENTER","NEW YORK KNICKS"
+208,"Dorian Finney-Smith",30,"POWER FORWARD","BROOKLYN NETS"
+209,"Cam Whitmore",19,"SMALL FORWARD","HOUSTON ROCKETS"
+210,"Cameron Payne",29,"POINT GUARD","MILWAUKEE BUCKS"
+211,"Cameron Payne",29,"POINT GUARD","PHILADELPHIA 76ERS"
+212,"Lonnie Walker IV",25,"SHOOTING GUARD","BROOKLYN NETS"
+213,"Precious Achiuwa",24,"CENTER","TORONTO RAPTORS"
+214,"Precious Achiuwa",24,"POWER FORWARD","NEW YORK KNICKS"
+215,"Al Horford",37,"CENTER","BOSTON CELTICS"
+216,"Miles McBride",23,"POINT GUARD","NEW YORK KNICKS"
+217,"Onyeka Okongwu",23,"CENTER","ATLANTA HAWKS"
+218,"Cason Wallace",20,"SHOOTING GUARD","OKLAHOMA CITY THUNDER"
+219,"Dalano Banton",24,"POINT GUARD","BOSTON CELTICS"
+220,"Dalano Banton",24,"POINT GUARD","PORTLAND TRAIL BLAZERS"
+221,"Ausar Thompson",21,"SMALL FORWARD","DETROIT PISTONS"
+222,"Jakob Poeltl",28,"CENTER","TORONTO RAPTORS"
+223,"Aaron Wiggins",25,"SHOOTING GUARD","OKLAHOMA CITY THUNDER"
+224,"Trayce Jackson-Davis",23,"POWER FORWARD","GOLDEN STATE WARRIORS"
+225,"Moses Moody",21,"SHOOTING GUARD","GOLDEN STATE WARRIORS"
+226,"Chris Paul",38,"POINT GUARD","GOLDEN STATE WARRIORS"
+227,"Bilal Coulibaly",19,"SMALL FORWARD","WASHINGTON WIZARDS"
+228,"Peyton Watson",21,"SMALL FORWARD","DENVER NUGGETS"
+229,"Jaden Hardy",21,"SHOOTING GUARD","DALLAS MAVERICKS"
+230,"Toumani Camara",23,"POWER FORWARD","PORTLAND TRAIL BLAZERS"
+231,"LaMelo Ball",22,"POINT GUARD","CHARLOTTE HORNETS"
+232,"Jordan Hawkins",21,"SHOOTING GUARD","NEW ORLEANS PELICANS"
+233,"Vince Williams Jr.",23,"SHOOTING GUARD","MEMPHIS GRIZZLIES"
+234,"Walker Kessler",22,"CENTER","UTAH JAZZ"
+235,"Talen Horton-Tucker",23,"POINT GUARD","UTAH JAZZ"
+236,"Dario Šarić",29,"CENTER","GOLDEN STATE WARRIORS"
+237,"Aaron Holiday",27,"POINT GUARD","HOUSTON ROCKETS"
+238,"Gradey Dick",20,"SHOOTING GUARD","TORONTO RAPTORS"
+239,"Shaedon Sharpe",20,"SHOOTING GUARD","PORTLAND TRAIL BLAZERS"
+240,"Jeff Green",37,"POWER FORWARD","HOUSTON ROCKETS"
+241,"Kyle Anderson",30,"POWER FORWARD","MINNESOTA TIMBERWOLVES"
+242,"Julian Champagnie",22,"SMALL FORWARD","SAN ANTONIO SPURS"
+243,"Isaiah Stewart",22,"POWER FORWARD","DETROIT PISTONS"
+244,"Gordon Hayward",33,"SMALL FORWARD","CHARLOTTE HORNETS"
+245,"Gordon Hayward",33,"SMALL FORWARD","OKLAHOMA CITY THUNDER"
+246,"Cedi Osman",28,"SMALL FORWARD","SAN ANTONIO SPURS"
+247,"Zach LaVine",28,"SHOOTING GUARD","CHICAGO BULLS"
+248,"Kyle Lowry",37,"POINT GUARD","MIAMI HEAT"
+249,"Kyle Lowry",37,"POINT GUARD","PHILADELPHIA 76ERS"
+250,"Kevin Love",35,"POWER FORWARD","MIAMI HEAT"
+251,"Sam Merrill",27,"SHOOTING GUARD","CLEVELAND CAVALIERS"
+252,"Dereck Lively II",19,"CENTER","DALLAS MAVERICKS"
+253,"Draymond Green",33,"POWER FORWARD","GOLDEN STATE WARRIORS"
+254,"Josh Green",23,"SHOOTING GUARD","DALLAS MAVERICKS"
+255,"Naji Marshall",26,"SMALL FORWARD","NEW ORLEANS PELICANS"
+256,"Amir Coffey",26,"SMALL FORWARD","LOS ANGELES CLIPPERS"
+257,"Ochai Agbaji",23,"SHOOTING GUARD","UTAH JAZZ"
+258,"Ochai Agbaji",23,"SHOOTING GUARD","TORONTO RAPTORS"
+259,"Patrick Beverley",35,"POINT GUARD","PHILADELPHIA 76ERS"
+260,"Patrick Beverley",35,"POINT GUARD","MILWAUKEE BUCKS"
+261,"James Wiseman",22,"CENTER","DETROIT PISTONS"
+262,"Trendon Watford",23,"POWER FORWARD","BROOKLYN NETS"
+263,"Luke Kennard",27,"SHOOTING GUARD","MEMPHIS GRIZZLIES"
+264,"Patrick Williams",22,"POWER FORWARD","CHICAGO BULLS"
+265,"Pat Connaughton",31,"SMALL FORWARD","MILWAUKEE BUCKS"
+266,"Dante Exum",28,"POINT GUARD","DALLAS MAVERICKS"
+267,"Josh Richardson",30,"SHOOTING GUARD","MIAMI HEAT"
+268,"David Roddy",22,"POWER FORWARD","MEMPHIS GRIZZLIES"
+269,"David Roddy",22,"POWER FORWARD","PHOENIX SUNS"
+270,"Vasilije Micić",30,"POINT GUARD","OKLAHOMA CITY THUNDER"
+271,"Vasilije Micić",30,"POINT GUARD","CHARLOTTE HORNETS"
+272,"De'Anthony Melton",25,"SHOOTING GUARD","PHILADELPHIA 76ERS"
+273,"Ziaire Williams",22,"SMALL FORWARD","MEMPHIS GRIZZLIES"
+274,"Trey Lyles",28,"POWER FORWARD","SACRAMENTO KINGS"
+275,"Day'Ron Sharpe",22,"CENTER","BROOKLYN NETS"
+276,"Haywood Highsmith",27,"POWER FORWARD","MIAMI HEAT"
+277,"Jose Alvarado",25,"POINT GUARD","NEW ORLEANS PELICANS"
+278,"Jonathan Isaac",26,"POWER FORWARD","ORLANDO MAGIC"
+279,"Isaiah Jackson",22,"CENTER","INDIANA PACERS"
+280,"Tre Mann",22,"POINT GUARD","OKLAHOMA CITY THUNDER"
+281,"Tre Mann",22,"POINT GUARD","CHARLOTTE HORNETS"
+282,"Malachi Flynn",25,"POINT GUARD","TORONTO RAPTORS"
+283,"Malachi Flynn",25,"POINT GUARD","NEW YORK KNICKS"
+284,"Malachi Flynn",25,"POINT GUARD","DETROIT PISTONS"
+285,"Drew Eubanks",26,"CENTER","PHOENIX SUNS"
+286,"Jake LaRavia",22,"POWER FORWARD","MEMPHIS GRIZZLIES"
+287,"Davion Mitchell",25,"POINT GUARD","SACRAMENTO KINGS"
+288,"Kris Murray",23,"SMALL FORWARD","PORTLAND TRAIL BLAZERS"
+289,"Daniel Theis",31,"CENTER","INDIANA PACERS"
+290,"Daniel Theis",31,"CENTER","LOS ANGELES CLIPPERS"
+291,"Gary Harris",29,"SHOOTING GUARD","ORLANDO MAGIC"
+292,"Dennis Smith Jr.",26,"POINT GUARD","BROOKLYN NETS"
+293,"Jordan Goodwin",25,"POINT GUARD","PHOENIX SUNS"
+294,"Jordan Goodwin",25,"POINT GUARD","MEMPHIS GRIZZLIES"
+295,"Jordan Nwora",25,"SMALL FORWARD","INDIANA PACERS"
+296,"Jordan Nwora",25,"SMALL FORWARD","TORONTO RAPTORS"
+297,"Quentin Grimes",23,"SHOOTING GUARD","NEW YORK KNICKS"
+298,"Quentin Grimes",23,"SHOOTING GUARD","DETROIT PISTONS"
+299,"Jevon Carter",28,"POINT GUARD","CHICAGO BULLS"
+300,"Kris Dunn",29,"POINT GUARD","UTAH JAZZ"
+301,"Dyson Daniels",20,"POINT GUARD","NEW ORLEANS PELICANS"
+302,"Matisse Thybulle",26,"SMALL FORWARD","PORTLAND TRAIL BLAZERS"
+303,"Nikola Jović",20,"POWER FORWARD","MIAMI HEAT"
+304,"Doug McDermott",32,"SMALL FORWARD","SAN ANTONIO SPURS"
+305,"Doug McDermott",32,"SMALL FORWARD","INDIANA PACERS"
+306,"Larry Nance Jr.",31,"CENTER","NEW ORLEANS PELICANS"
+307,"Christian Wood",28,"POWER FORWARD","LOS ANGELES LAKERS"
+308,"Markelle Fultz",25,"POINT GUARD","ORLANDO MAGIC"
+309,"Luke Kornet",28,"CENTER","BOSTON CELTICS"
+310,"Kevon Looney",27,"CENTER","GOLDEN STATE WARRIORS"
+311,"Chimezie Metu",26,"CENTER","PHOENIX SUNS"
+312,"Chimezie Metu",26,"CENTER","DETROIT PISTONS"
+313,"Landry Shamet",26,"SHOOTING GUARD","WASHINGTON WIZARDS"
+314,"Garrison Mathews",27,"SHOOTING GUARD","ATLANTA HAWKS"
+315,"Kenrich Williams",29,"POWER FORWARD","OKLAHOMA CITY THUNDER"
+316,"Chris Boucher",31,"POWER FORWARD","TORONTO RAPTORS"
+317,"Nicolas Batum",35,"POWER FORWARD","LOS ANGELES CLIPPERS"
+318,"Nicolas Batum",35,"POWER FORWARD","PHILADELPHIA 76ERS"
+319,"Anthony Black",20,"POINT GUARD","ORLANDO MAGIC"
+320,"Marcus Morris",34,"POWER FORWARD","PHILADELPHIA 76ERS"
+321,"Marcus Morris",34,"POWER FORWARD","CLEVELAND CAVALIERS"
+322,"Jae Crowder",33,"POWER FORWARD","MILWAUKEE BUCKS"
+323,"Goga Bitadze",24,"CENTER","ORLANDO MAGIC"
+324,"Keon Ellis",24,"SHOOTING GUARD","SACRAMENTO KINGS"
+325,"Torrey Craig",33,"SMALL FORWARD","CHICAGO BULLS"
+326,"Jaxson Hayes",23,"CENTER","LOS ANGELES LAKERS"
+327,"Bryce McGowens",21,"SHOOTING GUARD","CHARLOTTE HORNETS"
+328,"Nick Smith Jr.",19,"SHOOTING GUARD","CHARLOTTE HORNETS"
+329,"Joe Ingles",36,"SMALL FORWARD","ORLANDO MAGIC"
+330,"Taylor Hendricks",20,"POWER FORWARD","UTAH JAZZ"
+331,"Dean Wade",27,"POWER FORWARD","CLEVELAND CAVALIERS"
+332,"Dāvis Bertāns",31,"POWER FORWARD","OKLAHOMA CITY THUNDER"
+333,"Dāvis Bertāns",31,"POWER FORWARD","CHARLOTTE HORNETS"
+334,"Killian Hayes",22,"POINT GUARD","DETROIT PISTONS"
+335,"Marcus Smart",29,"POINT GUARD","MEMPHIS GRIZZLIES"
+336,"Craig Porter Jr.",23,"POINT GUARD","CLEVELAND CAVALIERS"
+337,"Max Christie",20,"SHOOTING GUARD","LOS ANGELES LAKERS"
+338,"Xavier Tillman Sr.",25,"CENTER","MEMPHIS GRIZZLIES"
+339,"Xavier Tillman Sr.",25,"POWER FORWARD","BOSTON CELTICS"
+340,"Bruno Fernando",25,"CENTER","ATLANTA HAWKS"
+341,"Danilo Gallinari",35,"POWER FORWARD","WASHINGTON WIZARDS"
+342,"Danilo Gallinari",35,"SMALL FORWARD","DETROIT PISTONS"
+343,"Danilo Gallinari",35,"SMALL FORWARD","MILWAUKEE BUCKS"
+344,"Josh Okogie",25,"SHOOTING GUARD","PHOENIX SUNS"
+345,"Jaylin Williams",21,"CENTER","OKLAHOMA CITY THUNDER"
+346,"Jock Landale",28,"CENTER","HOUSTON ROCKETS"
+347,"Lamar Stevens",26,"POWER FORWARD","BOSTON CELTICS"
+348,"Lamar Stevens",26,"POWER FORWARD","MEMPHIS GRIZZLIES"
+349,"Scotty Pippen Jr.",23,"POINT GUARD","MEMPHIS GRIZZLIES"
+350,"Blake Wesley",20,"SHOOTING GUARD","SAN ANTONIO SPURS"
+351,"Jae'Sean Tate",28,"SMALL FORWARD","HOUSTON ROCKETS"
+352,"Cam Reddish",24,"SMALL FORWARD","LOS ANGELES LAKERS"
+353,"Bones Hyland",23,"POINT GUARD","LOS ANGELES CLIPPERS"
+354,"Mo Bamba",25,"CENTER","PHILADELPHIA 76ERS"
+355,"Caleb Houstan",21,"SMALL FORWARD","ORLANDO MAGIC"
+356,"A.J. Green",24,"SHOOTING GUARD","MILWAUKEE BUCKS"
+357,"Ben Sheppard",22,"SHOOTING GUARD","INDIANA PACERS"
+358,"Jared Butler",23,"SHOOTING GUARD","WASHINGTON WIZARDS"
+359,"Troy Brown Jr.",24,"SMALL FORWARD","MINNESOTA TIMBERWOLVES"
+360,"Troy Brown Jr.",24,"SMALL FORWARD","DETROIT PISTONS"
+361,"Mason Plumlee",33,"CENTER","LOS ANGELES CLIPPERS"
+362,"Mark Williams",22,"CENTER","CHARLOTTE HORNETS"
+363,"Brice Sensabaugh",20,"SMALL FORWARD","UTAH JAZZ"
+364,"Gary Payton II",31,"SHOOTING GUARD","GOLDEN STATE WARRIORS"
+365,"John Konchar",27,"SMALL FORWARD","MEMPHIS GRIZZLIES"
+366,"Justin Holiday",34,"SHOOTING GUARD","DENVER NUGGETS"
+367,"Chris Duarte",26,"SMALL FORWARD","SACRAMENTO KINGS"
+368,"Julian Strawther",21,"SMALL FORWARD","DENVER NUGGETS"
+369,"Ja Morant",24,"POINT GUARD","MEMPHIS GRIZZLIES"
+370,"Seth Curry",33,"SHOOTING GUARD","DALLAS MAVERICKS"
+371,"Seth Curry",33,"SHOOTING GUARD","CHARLOTTE HORNETS"
+372,"Sasha Vezenkov",28,"POWER FORWARD","SACRAMENTO KINGS"
+373,"KJ Martin",23,"SMALL FORWARD","LOS ANGELES CLIPPERS"
+374,"KJ Martin",23,"SMALL FORWARD","PHILADELPHIA 76ERS"
+375,"Bol Bol",24,"POWER FORWARD","PHOENIX SUNS"
+376,"Kevin Knox",24,"SMALL FORWARD","DETROIT PISTONS"
+377,"Omer Yurtseven",25,"CENTER","UTAH JAZZ"
+378,"Evan Fournier",31,"SHOOTING GUARD","NEW YORK KNICKS"
+379,"Evan Fournier",31,"SHOOTING GUARD","DETROIT PISTONS"
+380,"Thomas Bryant",26,"CENTER","MIAMI HEAT"
+381,"Shake Milton",27,"SHOOTING GUARD","MINNESOTA TIMBERWOLVES"
+382,"Shake Milton",27,"SHOOTING GUARD","DETROIT PISTONS"
+383,"Shake Milton",27,"SHOOTING GUARD","NEW YORK KNICKS"
+384,"Tari Eason",22,"POWER FORWARD","HOUSTON ROCKETS"
+385,"Jalen Wilson",23,"POWER FORWARD","BROOKLYN NETS"
+386,"MarJon Beauchamp",23,"SMALL FORWARD","MILWAUKEE BUCKS"
+387,"Cody Martin",28,"SMALL FORWARD","CHARLOTTE HORNETS"
+388,"Delon Wright",31,"POINT GUARD","WASHINGTON WIZARDS"
+389,"Delon Wright",31,"POINT GUARD","MIAMI HEAT"
+390,"Dwight Powell",32,"CENTER","DALLAS MAVERICKS"
+391,"Eugene Omoruyi",26,"SMALL FORWARD","WASHINGTON WIZARDS"
+392,"Oshae Brissett",25,"SMALL FORWARD","BOSTON CELTICS"
+393,"JT Thor",21,"POWER FORWARD","CHARLOTTE HORNETS"
+394,"Richaun Holmes",30,"CENTER","DALLAS MAVERICKS"
+395,"Richaun Holmes",30,"POWER FORWARD","WASHINGTON WIZARDS"
+396,"Keita Bates-Diop",28,"SMALL FORWARD","PHOENIX SUNS"
+397,"Keita Bates-Diop",28,"SMALL FORWARD","BROOKLYN NETS"
+398,"Jordan McLaughlin",27,"POINT GUARD","MINNESOTA TIMBERWOLVES"
+399,"Maxi Kleber",32,"CENTER","DALLAS MAVERICKS"
+400,"Derrick Rose",35,"POINT GUARD","MEMPHIS GRIZZLIES"
+401,"Sandro Mamukelashvili",24,"CENTER","SAN ANTONIO SPURS"
+402,"Anthony Gill",31,"POWER FORWARD","WASHINGTON WIZARDS"
+403,"Zeke Nnaji",23,"POWER FORWARD","DENVER NUGGETS"
+404,"JaVale McGee",36,"CENTER","SACRAMENTO KINGS"
+405,"Dalen Terry",21,"SHOOTING GUARD","CHICAGO BULLS"
+406,"Luka Šamanić",24,"POWER FORWARD","UTAH JAZZ"
+407,"Bismack Biyombo",31,"CENTER","MEMPHIS GRIZZLIES"
+408,"Bismack Biyombo",31,"CENTER","OKLAHOMA CITY THUNDER"
+409,"Ricky Council IV",22,"SHOOTING GUARD","PHILADELPHIA 76ERS"
+410,"Jacob Gilyard",25,"POINT GUARD","MEMPHIS GRIZZLIES"
+411,"Jacob Gilyard",25,"POINT GUARD","BROOKLYN NETS"
+412,"Mitchell Robinson",25,"CENTER","NEW YORK KNICKS"
+413,"Trey Jemison",24,"CENTER","WASHINGTON WIZARDS"
+414,"Trey Jemison",24,"CENTER","MEMPHIS GRIZZLIES"
+415,"Jalen McDaniels",26,"SMALL FORWARD","TORONTO RAPTORS"
+416,"Patrick Baldwin Jr.",21,"SMALL FORWARD","WASHINGTON WIZARDS"
+417,"Brandon Boston Jr.",22,"SMALL FORWARD","LOS ANGELES CLIPPERS"
+418,"Lester Quiñones",23,"SHOOTING GUARD","GOLDEN STATE WARRIORS"
+419,"Monte Morris",28,"POINT GUARD","DETROIT PISTONS"
+420,"Monte Morris",28,"POINT GUARD","MINNESOTA TIMBERWOLVES"
+421,"Jaden Springer",21,"SHOOTING GUARD","PHILADELPHIA 76ERS"
+422,"Jaden Springer",21,"SHOOTING GUARD","BOSTON CELTICS"
+423,"Svi Mykhailiuk",26,"SMALL FORWARD","BOSTON CELTICS"
+424,"Tristan Thompson",32,"CENTER","CLEVELAND CAVALIERS"
+425,"Mike Muscala",32,"CENTER","WASHINGTON WIZARDS"
+426,"Mike Muscala",32,"CENTER","DETROIT PISTONS"
+427,"Mike Muscala",32,"CENTER","OKLAHOMA CITY THUNDER"
+428,"Rayan Rupert",19,"SHOOTING GUARD","PORTLAND TRAIL BLAZERS"
+429,"Skylar Mays",26,"POINT GUARD","PORTLAND TRAIL BLAZERS"
+430,"Skylar Mays",26,"SHOOTING GUARD","LOS ANGELES LAKERS"
+431,"Neemias Queta",24,"CENTER","BOSTON CELTICS"
+432,"Javon Freeman-Liberty",24,"POINT GUARD","TORONTO RAPTORS"
+433,"Johnny Davis",21,"SHOOTING GUARD","WASHINGTON WIZARDS"
+434,"Nassir Little",23,"SMALL FORWARD","PHOENIX SUNS"
+435,"Matt Ryan",26,"SMALL FORWARD","NEW ORLEANS PELICANS"
+436,"Jarred Vanderbilt",24,"POWER FORWARD","LOS ANGELES LAKERS"
+437,"Aleksej Pokusevski",22,"POWER FORWARD","OKLAHOMA CITY THUNDER"
+438,"Aleksej Pokusevski",22,"POWER FORWARD","CHARLOTTE HORNETS"
+439,"Dominick Barlow",20,"POWER FORWARD","SAN ANTONIO SPURS"
+440,"Danuel House Jr.",30,"SMALL FORWARD","PHILADELPHIA 76ERS"
+441,"Johnny Juzang",22,"SHOOTING GUARD","UTAH JAZZ"
+442,"DeAndre Jordan",35,"CENTER","DENVER NUGGETS"
+443,"Ish Smith",35,"POINT GUARD","CHARLOTTE HORNETS"
+444,"Lindy Waters III",26,"SHOOTING GUARD","OKLAHOMA CITY THUNDER"
+445,"Thaddeus Young",35,"POWER FORWARD","TORONTO RAPTORS"
+446,"Thaddeus Young",35,"POWER FORWARD","PHOENIX SUNS"
+447,"A.J. Lawson",23,"SHOOTING GUARD","DALLAS MAVERICKS"
+448,"Vit Krejci",23,"POINT GUARD","ATLANTA HAWKS"
+449,"Noah Clowney",19,"POWER FORWARD","BROOKLYN NETS"
+450,"Ousmane Dieng",20,"POWER FORWARD","OKLAHOMA CITY THUNDER"
+451,"Stanley Umude",24,"SHOOTING GUARD","DETROIT PISTONS"
+452,"Robert Covington",33,"POWER FORWARD","LOS ANGELES CLIPPERS"
+453,"Robert Covington",33,"SMALL FORWARD","PHILADELPHIA 76ERS"
+454,"Patty Mills",35,"POINT GUARD","ATLANTA HAWKS"
+455,"Patty Mills",35,"POINT GUARD","MIAMI HEAT"
+456,"Andre Jackson Jr.",22,"SHOOTING GUARD","MILWAUKEE BUCKS"
+457,"Olivier-Maxence Prosper",21,"POWER FORWARD","DALLAS MAVERICKS"
+458,"Alex Len",30,"CENTER","SACRAMENTO KINGS"
+459,"Jarace Walker",20,"POWER FORWARD","INDIANA PACERS"
+460,"Yuta Watanabe",29,"SMALL FORWARD","PHOENIX SUNS"
+461,"Yuta Watanabe",29,"SMALL FORWARD","MEMPHIS GRIZZLIES"
+462,"Jontay Porter",24,"POWER FORWARD","TORONTO RAPTORS"
+463,"Jeremiah Robinson-Earl",23,"POWER FORWARD","NEW ORLEANS PELICANS"
+464,"Devonte' Graham",28,"POINT GUARD","SAN ANTONIO SPURS"
+465,"Isaiah Livers",25,"POWER FORWARD","DETROIT PISTONS"
+466,"Javonte Green",30,"SMALL FORWARD","CHICAGO BULLS"
+467,"Wesley Matthews",37,"SHOOTING GUARD","ATLANTA HAWKS"
+468,"Damian Jones",28,"CENTER","CLEVELAND CAVALIERS"
+469,"Chuma Okeke",25,"SMALL FORWARD","ORLANDO MAGIC"
+470,"Tosan Evbuomwan",22,"SMALL FORWARD","MEMPHIS GRIZZLIES"
+471,"Tosan Evbuomwan",22,"SMALL FORWARD","DETROIT PISTONS"
+472,"Luka Garza",25,"CENTER","MINNESOTA TIMBERWOLVES"
+473,"Orlando Robinson",23,"CENTER","MIAMI HEAT"
+474,"Jamal Cain",24,"POWER FORWARD","MIAMI HEAT"
+475,"Reggie Bullock",32,"SMALL FORWARD","HOUSTON ROCKETS"
+476,"Kenneth Lofton Jr.",21,"POWER FORWARD","MEMPHIS GRIZZLIES"
+477,"Kenneth Lofton Jr.",21,"POWER FORWARD","PHILADELPHIA 76ERS"
+478,"Kenneth Lofton Jr.",21,"POWER FORWARD","UTAH JAZZ"
+479,"Kessler Edwards",23,"SMALL FORWARD","SACRAMENTO KINGS"
+480,"Ben Simmons",27,"POINT GUARD","BROOKLYN NETS"
+481,"Jericho Sims",25,"CENTER","NEW YORK KNICKS"
+482,"Kobe Brown",24,"POWER FORWARD","LOS ANGELES CLIPPERS"
+483,"Justin Champagnie",22,"SMALL FORWARD","WASHINGTON WIZARDS"
+484,"Julian Phillips",20,"SMALL FORWARD","CHICAGO BULLS"
+485,"Kira Lewis Jr.",22,"POINT GUARD","NEW ORLEANS PELICANS"
+486,"Kira Lewis Jr.",22,"POINT GUARD","TORONTO RAPTORS"
+487,"Kira Lewis Jr.",22,"POINT GUARD","UTAH JAZZ"
+488,"Furkan Korkmaz",26,"SHOOTING GUARD","PHILADELPHIA 76ERS"
+489,"Garrett Temple",37,"SHOOTING GUARD","TORONTO RAPTORS"
+490,"Collin Gillespie",24,"POINT GUARD","DENVER NUGGETS"
+491,"Tristan Vukcevic",20,"CENTER","WASHINGTON WIZARDS"
+492,"Trent Forrest",25,"SHOOTING GUARD","ATLANTA HAWKS"
+493,"Jared Rhoden",24,"SHOOTING GUARD","DETROIT PISTONS"
+494,"Gui Santos",21,"POWER FORWARD","GOLDEN STATE WARRIORS"
+495,"Kobe Bufkin",20,"SHOOTING GUARD","ATLANTA HAWKS"
+496,"Jaylen Nowell",24,"SHOOTING GUARD","MEMPHIS GRIZZLIES"
+497,"Jaylen Nowell",24,"SHOOTING GUARD","DETROIT PISTONS"
+498,"Onuralp Bitim",24,"SHOOTING GUARD","CHICAGO BULLS"
+499,"Ashton Hagans",24,"POINT GUARD","PORTLAND TRAIL BLAZERS"
+500,"Cody Zeller",31,"CENTER","NEW ORLEANS PELICANS"
+501,"Moses Brown",24,"CENTER","PORTLAND TRAIL BLAZERS"
+502,"Jules Bernard",24,"SHOOTING GUARD","WASHINGTON WIZARDS"
+503,"Saben Lee",24,"POINT GUARD","PHOENIX SUNS"
+504,"Leaky Black",24,"SMALL FORWARD","CHARLOTTE HORNETS"
+505,"Brandon Clarke",27,"POWER FORWARD","MEMPHIS GRIZZLIES"
+506,"Markieff Morris",34,"POWER FORWARD","DALLAS MAVERICKS"
+507,"Colby Jones",21,"SHOOTING GUARD","SACRAMENTO KINGS"
+508,"Charles Bassey",23,"CENTER","SAN ANTONIO SPURS"
+509,"Cory Joseph",32,"POINT GUARD","GOLDEN STATE WARRIORS"
+510,"Jeenathan Williams",24,"SHOOTING GUARD","HOUSTON ROCKETS"
+511,"Justin Minaya",24,"SMALL FORWARD","PORTLAND TRAIL BLAZERS"
+512,"Théo Maledon",22,"POINT GUARD","CHARLOTTE HORNETS"
+513,"Théo Maledon",22,"POINT GUARD","PHOENIX SUNS"
+514,"Harry Giles",25,"CENTER","BROOKLYN NETS"
+515,"Harry Giles",25,"CENTER","LOS ANGELES LAKERS"
+516,"Brandon Williams",24,"POINT GUARD","DALLAS MAVERICKS"
+517,"Micah Potter",25,"POWER FORWARD","UTAH JAZZ"
+518,"Jeff Dowtin",26,"POINT GUARD","PHILADELPHIA 76ERS"
+519,"Terquavion Smith",21,"POINT GUARD","PHILADELPHIA 76ERS"
+520,"P.J. Tucker",38,"POWER FORWARD","PHILADELPHIA 76ERS"
+521,"P.J. Tucker",38,"POWER FORWARD","LOS ANGELES CLIPPERS"
+522,"James Bouknight",23,"SHOOTING GUARD","CHARLOTTE HORNETS"
+523,"Josh Minott",21,"SMALL FORWARD","MINNESOTA TIMBERWOLVES"
+524,"Darius Bazley",23,"POWER FORWARD","PHILADELPHIA 76ERS"
+525,"Darius Bazley",23,"POWER FORWARD","UTAH JAZZ"
+526,"AJ Griffin",20,"SMALL FORWARD","ATLANTA HAWKS"
+527,"Mãozinha Pereira",23,"SMALL FORWARD","MEMPHIS GRIZZLIES"
+528,"Jahmi'us Ramsey",22,"SHOOTING GUARD","TORONTO RAPTORS"
+529,"Terry Taylor",24,"POWER FORWARD","CHICAGO BULLS"
+530,"Sidy Cissoko",19,"SMALL FORWARD","SAN ANTONIO SPURS"
+531,"Boban Marjanović",35,"CENTER","HOUSTON ROCKETS"
+532,"Ryan Rollins",21,"POINT GUARD","WASHINGTON WIZARDS"
+533,"Ryan Rollins",21,"POINT GUARD","MILWAUKEE BUCKS"
+534,"DeJon Jarreau",26,"SHOOTING GUARD","MEMPHIS GRIZZLIES"
+535,"Dylan Windler",27,"SMALL FORWARD","NEW YORK KNICKS"
+536,"Dylan Windler",27,"SMALL FORWARD","LOS ANGELES LAKERS"
+537,"Dylan Windler",27,"SMALL FORWARD","ATLANTA HAWKS"
+538,"Armoni Brooks",25,"POINT GUARD","BROOKLYN NETS"
+539,"Jalen Pickett",24,"SHOOTING GUARD","DENVER NUGGETS"
+540,"Zavier Simpson",26,"POINT GUARD","MEMPHIS GRIZZLIES"
+541,"Cole Swider",24,"SMALL FORWARD","MIAMI HEAT"
+542,"Emoni Bates",20,"SMALL FORWARD","CLEVELAND CAVALIERS"
+543,"T.J. Warren",30,"SMALL FORWARD","MINNESOTA TIMBERWOLVES"
+544,"Robert Williams",26,"CENTER","PORTLAND TRAIL BLAZERS"
+545,"Trevelin Queen",26,"SHOOTING GUARD","ORLANDO MAGIC"
+546,"Joe Harris",32,"SHOOTING GUARD","DETROIT PISTONS"
+547,"Otto Porter Jr.",30,"SMALL FORWARD","TORONTO RAPTORS"
+548,"Dru Smith",26,"SHOOTING GUARD","MIAMI HEAT"
+549,"Marques Bolden",25,"CENTER","MILWAUKEE BUCKS"
+550,"Marques Bolden",25,"CENTER","CHARLOTTE HORNETS"
+551,"Adama Sanogo",21,"POWER FORWARD","CHICAGO BULLS"
+552,"Udoka Azubuike",24,"CENTER","PHOENIX SUNS"
+553,"Ibou Badji",21,"CENTER","PORTLAND TRAIL BLAZERS"
+554,"Buddy Boeheim",24,"SMALL FORWARD","DETROIT PISTONS"
+555,"Jalen Hood-Schifino",20,"SHOOTING GUARD","LOS ANGELES LAKERS"
+556,"Olivier Sarr",24,"CENTER","OKLAHOMA CITY THUNDER"
+557,"Gabe Vincent",27,"POINT GUARD","LOS ANGELES LAKERS"
+558,"Taj Gibson",38,"POWER FORWARD","NEW YORK KNICKS"
+559,"Taj Gibson",38,"POWER FORWARD","DETROIT PISTONS"
+560,"Nate Hinton",24,"SHOOTING GUARD","HOUSTON ROCKETS"
+561,"Nathan Mensah",25,"CENTER","CHARLOTTE HORNETS"
+562,"Xavier Moon",29,"SHOOTING GUARD","LOS ANGELES CLIPPERS"
+563,"Thanasis Antetokounmpo",31,"POWER FORWARD","MILWAUKEE BUCKS"
+564,"Matthew Hurt",23,"POWER FORWARD","MEMPHIS GRIZZLIES"
+565,"Keon Johnson",21,"SHOOTING GUARD","BROOKLYN NETS"
+566,"Jerome Robinson",26,"SHOOTING GUARD","GOLDEN STATE WARRIORS"
+567,"Moussa Diabaté",22,"CENTER","LOS ANGELES CLIPPERS"
+568,"Jett Howard",20,"SMALL FORWARD","ORLANDO MAGIC"
+569,"Leonard Miller",20,"SMALL FORWARD","MINNESOTA TIMBERWOLVES"
+570,"Daishen Nix",21,"POINT GUARD","MINNESOTA TIMBERWOLVES"
+571,"David Duke Jr.",24,"SHOOTING GUARD","SAN ANTONIO SPURS"
+572,"Mouhamadou Gueye",25,"POWER FORWARD","TORONTO RAPTORS"
+573,"Chris Livingston",20,"SMALL FORWARD","MILWAUKEE BUCKS"
+574,"Admiral Schofield",26,"POWER FORWARD","ORLANDO MAGIC"
+575,"Oscar Tshiebwe",24,"POWER FORWARD","INDIANA PACERS"
+576,"Colin Castleton",23,"CENTER","LOS ANGELES LAKERS"
+577,"Mouhamed Gueye",21,"POWER FORWARD","ATLANTA HAWKS"
+578,"Amari Bailey",19,"POINT GUARD","CHARLOTTE HORNETS"
+579,"RaiQuan Gray",24,"POWER FORWARD","SAN ANTONIO SPURS"
+580,"Jay Huff",25,"CENTER","DENVER NUGGETS"
+581,"Isaiah Mobley",24,"POWER FORWARD","CLEVELAND CAVALIERS"
+582,"Ish Wainright",29,"SMALL FORWARD","PORTLAND TRAIL BLAZERS"
+583,"Ish Wainright",29,"SMALL FORWARD","PHOENIX SUNS"
+584,"Dexter Dennis",24,"SHOOTING GUARD","DALLAS MAVERICKS"
+585,"Braxton Key",26,"SMALL FORWARD","DENVER NUGGETS"
+586,"Kendall Brown",20,"SHOOTING GUARD","INDIANA PACERS"
+587,"Jamaree Bouyea",24,"POINT GUARD","PORTLAND TRAIL BLAZERS"
+588,"Jamaree Bouyea",24,"POINT GUARD","SAN ANTONIO SPURS"
+589,"Jermaine Samuels",25,"SMALL FORWARD","HOUSTON ROCKETS"
+590,"Kobi Simmons",26,"POINT GUARD","TORONTO RAPTORS"
+591,"Hunter Tyson",23,"POWER FORWARD","DENVER NUGGETS"
+592,"Malik Williams",25,"CENTER","TORONTO RAPTORS"
+593,"Robin Lopez",35,"CENTER","MILWAUKEE BUCKS"
+594,"Taze Moore",25,"SHOOTING GUARD","PORTLAND TRAIL BLAZERS"
+595,"Wendell Moore Jr.",22,"SHOOTING GUARD","MINNESOTA TIMBERWOLVES"
+596,"Wenyen Gabriel",26,"POWER FORWARD","MEMPHIS GRIZZLIES"
+597,"JD Davison",21,"SHOOTING GUARD","BOSTON CELTICS"
+598,"Greg Brown III",22,"POWER FORWARD","DALLAS MAVERICKS"
+599,"Jordan Walsh",19,"SMALL FORWARD","BOSTON CELTICS"
+600,"Alex Fudge",20,"SMALL FORWARD","LOS ANGELES LAKERS"
+601,"Alex Fudge",20,"SMALL FORWARD","DALLAS MAVERICKS"
+602,"D'Moi Hodge",25,"SHOOTING GUARD","LOS ANGELES LAKERS"
+603,"DaQuan Jeffries",26,"SHOOTING GUARD","NEW YORK KNICKS"
+604,"Seth Lundy",23,"SMALL FORWARD","ATLANTA HAWKS"
+605,"Dereon Seabron",23,"SHOOTING GUARD","NEW ORLEANS PELICANS"
+606,"TyTy Washington Jr.",22,"POINT GUARD","MILWAUKEE BUCKS"
+607,"Timmy Allen",24,"SMALL FORWARD","MEMPHIS GRIZZLIES"
+608,"Jordan Miller",24,"SMALL FORWARD","LOS ANGELES CLIPPERS"
+609,"Jacob Toppin",23,"SMALL FORWARD","NEW YORK KNICKS"
+610,"Mamadi Diakite",27,"POWER FORWARD","SAN ANTONIO SPURS"
+611,"Mamadi Diakite",27,"POWER FORWARD","NEW YORK KNICKS"
+612,"Jordan Ford",25,"POINT GUARD","SACRAMENTO KINGS"
+613,"Jason Preston",24,"POINT GUARD","UTAH JAZZ"
+614,"D.J. Carton",23,"SHOOTING GUARD","TORONTO RAPTORS"
+615,"Henri Drell",23,"SMALL FORWARD","CHICAGO BULLS"
+616,"Keyontae Johnson",23,"SMALL FORWARD","OKLAHOMA CITY THUNDER"
+617,"Maxwell Lewis",21,"SMALL FORWARD","LOS ANGELES LAKERS"
+618,"Drew Peterson",24,"POWER FORWARD","BOSTON CELTICS"
+619,"R.J. Hampton",22,"POINT GUARD","MIAMI HEAT"
+620,"D.J. Wilson",27,"POWER FORWARD","PHILADELPHIA 76ERS"
+621,"James Johnson",36,"POWER FORWARD","INDIANA PACERS"
+622,"Jalen Slawson",24,"SMALL FORWARD","SACRAMENTO KINGS"
+623,"Isaiah Thomas",34,"POINT GUARD","PHOENIX SUNS"
+624,"Mason Jones",25,"SHOOTING GUARD","SACRAMENTO KINGS"
+625,"Juan Toscano-Anderson",30,"SMALL FORWARD","SACRAMENTO KINGS"
+626,"Charlie Brown Jr.",26,"SHOOTING GUARD","NEW YORK KNICKS"
+627,"Jack White",26,"SMALL FORWARD","MEMPHIS GRIZZLIES"
+628,"Lindell Wigginton",25,"POINT GUARD","MILWAUKEE BUCKS"
+629,"Frank Ntilikina",25,"POINT GUARD","CHARLOTTE HORNETS"
+630,"Alondes Williams",24,"SHOOTING GUARD","MIAMI HEAT"
+631,"Izaiah Brockington",24,"POINT GUARD","NEW ORLEANS PELICANS"
+632,"Kevon Harris",26,"SHOOTING GUARD","ORLANDO MAGIC"
+633,"Ty Jerome",26,"SHOOTING GUARD","CLEVELAND CAVALIERS"
+634,"E.J. Liddell",23,"POWER FORWARD","NEW ORLEANS PELICANS"
+635,"Pat Spencer",27,"POINT GUARD","GOLDEN STATE WARRIORS"
+636,"Adam Flagler",24,"SHOOTING GUARD","OKLAHOMA CITY THUNDER"
+637,"Usman Garuba",21,"POWER FORWARD","GOLDEN STATE WARRIORS"
+638,"Dariq Whitehead",19,"SMALL FORWARD","BROOKLYN NETS"
+639,"Pete Nance",23,"POWER FORWARD","CLEVELAND CAVALIERS"
+640,"Filip Petrušev",23,"CENTER","PHILADELPHIA 76ERS"
+641,"Filip Petrušev",23,"CENTER","SACRAMENTO KINGS"
+642,"Hamidou Diallo",25,"SHOOTING GUARD","WASHINGTON WIZARDS"
+643,"Shaquille Harrison",30,"SHOOTING GUARD","MEMPHIS GRIZZLIES"
+644,"Quenton Jackson",25,"POINT GUARD","INDIANA PACERS"
+645,"Markquis Nowell",24,"SHOOTING GUARD","TORONTO RAPTORS"
+646,"Joshua Primo",21,"SHOOTING GUARD","LOS ANGELES CLIPPERS"
+647,"Isaiah Wong",23,"SHOOTING GUARD","INDIANA PACERS"
+648,"Ryan Arcidiacono",29,"POINT GUARD","NEW YORK KNICKS"
+649,"Malcolm Cazalon",22,"SHOOTING GUARD","DETROIT PISTONS"
+650,"Jalen Crutcher",24,"POINT GUARD","NEW ORLEANS PELICANS"
+651,"Andrew Funk",24,"SHOOTING GUARD","CHICAGO BULLS"
+652,"Kaiser Gates",27,"SMALL FORWARD","NEW ORLEANS PELICANS"
+653,"Danny Green",36,"SHOOTING GUARD","PHILADELPHIA 76ERS"
+654,"Ron Harper Jr.",23,"POWER FORWARD","TORONTO RAPTORS"
+655,"Justin Jackson",28,"SMALL FORWARD","MINNESOTA TIMBERWOLVES"
+656,"Dmytro Skapintsev",25,"CENTER","NEW YORK KNICKS"
+657,"Javonte Smart",24,"POINT GUARD","PHILADELPHIA 76ERS"
