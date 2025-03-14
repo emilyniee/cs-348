@@ -11,9 +11,9 @@ WITH
             ) AS wins
         FROM
             Game g
-            JOIN Arenas a ON g.arena_id = a.arena_id
+            JOIN Arenas a ON g.arena_name = a.arena_name
         WHERE
-            a.arena_name = 'Michigan Arena'
+            a.arena_name = ${arena_name}
         GROUP BY
             g.home_team_name
     ),
@@ -29,16 +29,16 @@ WITH
             ) AS wins
         FROM
             Game g
-            JOIN Arenas a ON g.arena_id = a.arena_id
+            JOIN Arenas a ON g.arena_name = a.arena_name
         WHERE
-            a.arena_name = 'Michigan Arena'
+            a.arena_name = ${arena_name}
         GROUP BY
             g.away_team_name
     ),
     TopAwayTeams AS (
         SELECT
             a.away_team_name,
-            t.name AS team_name,
+            t.team_name AS team_name,
             (a.wins * 100.0 / a.total_games) AS win_percentage,
             RANK() OVER (
                 ORDER BY
@@ -50,7 +50,7 @@ WITH
     )
 SELECT
     'Home Team' AS category,
-    t.name AS team_name,
+    t.team_name AS team_name,
     (h.wins * 100.0 / h.total_games) AS win_percentage
 FROM
     HomeStats h

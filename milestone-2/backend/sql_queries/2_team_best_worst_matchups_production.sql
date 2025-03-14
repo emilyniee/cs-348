@@ -6,7 +6,7 @@ WITH
       FROM
          Game
       WHERE
-         home_team_name = '1'
+         home_team_name = ${team_name}
    ),
    team_away AS (
       SELECT
@@ -15,7 +15,7 @@ WITH
       FROM
          Game
       WHERE
-         away_team_name = '1'
+         away_team_name = ${team_name}
    ),
    all_games AS (
       SELECT
@@ -31,7 +31,7 @@ WITH
          team_away
    )
 SELECT
-   Teams.name,
+   Teams.team_name,
    opponent_team,
    avg_point_diff
 FROM
