@@ -1,4 +1,4 @@
-player_id,name,age,position,team_id
+player_id,name,age,position,team_name
 1,"Luka Dončić",24,"POINT GUARD","DALLAS MAVERICKS"
 2,"Shai Gilgeous-Alexander",25,"POINT GUARD","OKLAHOMA CITY THUNDER"
 3,"Giannis Antetokounmpo",29,"POWER FORWARD","MILWAUKEE BUCKS"
