@@ -15,9 +15,9 @@ FROM
                     FROM
                         (
                             Teams
-                            JOIN Rosters ON Teams.team_id = Rosters.team_id
+                            JOIN Rosters ON Teams.team_name = Rosters.team_name
                             AND Rosters.season = '2023'
-                            AND Teams.team_id = '1'
+                            AND Teams.team_name = '1'
                         ) as TeamRosters
                         JOIN RosterMembers ON TeamRosters.roster_id = RosterMembers.roster_id
                 ) AS P
@@ -28,8 +28,8 @@ FROM
                         Game
                         JOIN PlayerStats ON (
                             (
-                                Game.home_team_id = '1'
-                                OR Game.away_team_id = '1'
+                                Game.home_team_name = '1'
+                                OR Game.away_team_name = '1'
                             )
                             AND Game.game_id = PlayerStats.game_id
                             AND Game.season = '2023'

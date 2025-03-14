@@ -15,8 +15,8 @@ DROP TYPE IF EXISTS position_enum;
 DROP TYPE IF EXISTS conference_enum;
 
 CREATE TYPE series_enum AS ENUM ('Quarterfinals', 'Semifinals', 'Finals', 'Championship Finals');
-CREATE TYPE position_enum AS ENUM ('Point Guard', 'Shooting Guard', 'Small Forward', 'Power Forward', 'Center');
-CREATE TYPE conference_enum AS ENUM ('West', 'East');
+CREATE TYPE position_enum AS ENUM ('POINT GUARD', 'SHOOTING GUARD', 'SMALL FORWARD', 'POWER FORWARD', 'CENTER');
+CREATE TYPE conference_enum AS ENUM ('WESTERN', 'EASTERN');
 
 
 CREATE TABLE Teams
@@ -33,12 +33,12 @@ CREATE TABLE Arenas
 CREATE TABLE Playoffs
 (
     playoff_id SERIAL PRIMARY KEY,
-    team_id1 INT NOT NULL,
-    team_id2 INT NOT NULL,
+    team_name1 VARCHAR(200) NOT NULL,
+    team_name2 VARCHAR(200) NOT NULL,
     series series_enum NOT NULL,
     season VARCHAR(10) NOT NULL,
-    FOREIGN KEY (team_id1) REFERENCES Teams(team_id),
-    FOREIGN KEY (team_id2) REFERENCES Teams(team_id)
+    FOREIGN KEY (team_name1) REFERENCES Teams(name),
+    FOREIGN KEY (team_name2) REFERENCES Teams(name)
 
 );
 CREATE TABLE Player 
@@ -47,8 +47,9 @@ CREATE TABLE Player
     name VARCHAR(200) NOT NULL, 
     age INT,
     position position_enum NOT NULL,
-    team_id INT NOT NULL,
-    FOREIGN KEY (team_id) REFERENCES Teams(team_id)
+    team_name VARCHAR(200) NOT NULL,
+    birthday DATE,
+    FOREIGN KEY (team_name) REFERENCES Teams(name)
 ); 
 
 CREATE TABLE Game
@@ -70,9 +71,9 @@ CREATE TABLE Game
 CREATE TABLE Rosters 
 (
     roster_id SERIAL PRIMARY KEY, 
-    team_id INT NOT NULL,
+    team_name VARCHAR(200) NOT NULL,
     season VARCHAR(10) NOT NULL,
-    FOREIGN KEY (team_id) REFERENCES Teams(team_id)
+    FOREIGN KEY (team_name) REFERENCES Teams(name)
 );
 
 CREATE TABLE RosterMembers
@@ -121,11 +122,11 @@ CREATE TABLE PlayerStats
 
 CREATE TABLE TeamArenas
 (
-    arena_id INT NOT NULL,
-    team_id INT NOT NULL,
-    PRIMARY KEY (arena_id, team_id),
-    FOREIGN KEY (arena_id) REFERENCES Arenas(arena_id),
-    FOREIGN KEY (team_id) REFERENCES Teams(team_id)
+    arena_id VARCHAR(200) NOT NULL,
+    team_name VARCHAR(200) NOT NULL,
+    PRIMARY KEY (arena_id, team_name),
+    FOREIGN KEY (arena_id) REFERENCES Arenas(name),
+    FOREIGN KEY (team_name) REFERENCES Teams(name)
 
 );
 

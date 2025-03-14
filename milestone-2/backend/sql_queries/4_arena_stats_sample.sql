@@ -1,7 +1,7 @@
 WITH
     HomeStats AS (
         SELECT
-            g.home_team_id,
+            g.home_team_name,
             COUNT(*) AS total_games,
             SUM(
                 CASE
@@ -15,11 +15,11 @@ WITH
         WHERE
             a.arena_name = 'Michigan Arena'
         GROUP BY
-            g.home_team_id
+            g.home_team_name
     ),
     AwayStats AS (
         SELECT
-            g.away_team_id,
+            g.away_team_name,
             COUNT(*) AS total_games,
             SUM(
                 CASE
@@ -33,11 +33,11 @@ WITH
         WHERE
             a.arena_name = 'Michigan Arena'
         GROUP BY
-            g.away_team_id
+            g.away_team_name
     ),
     TopAwayTeams AS (
         SELECT
-            a.away_team_id,
+            a.away_team_name,
             t.name AS team_name,
             (a.wins * 100.0 / a.total_games) AS win_percentage,
             RANK() OVER (
@@ -46,7 +46,7 @@ WITH
             ) AS rank
         FROM
             AwayStats a
-            JOIN Teams t ON a.away_team_id = t.team_id
+            JOIN Teams t ON a.away_team_name = t.team_name
     )
 SELECT
     'Home Team' AS category,
@@ -54,7 +54,7 @@ SELECT
     (h.wins * 100.0 / h.total_games) AS win_percentage
 FROM
     HomeStats h
-    JOIN Teams t ON h.home_team_id = t.team_id
+    JOIN Teams t ON h.home_team_name = t.team_name
 UNION ALL
 SELECT
     'Top Away Team' AS category,

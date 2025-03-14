@@ -28,14 +28,14 @@ def read_root():
 def get_roster_stats():
     res = make_query('1_roster_stats.sql', {
         'season': "2023",
-        'team_id': '1'
+        'team_name': 'BOSTON_CELTICS'
     })
     return res
 
 @app.get('/team_best_worst_matchup')
 def get_team_best_worst_matchup():
     res = make_query('2_team_best_worst_matchups.sql', {
-       'team_id': '1'
+       'team_name': 'BOSTON_CELTICS'
     })
     return res
 

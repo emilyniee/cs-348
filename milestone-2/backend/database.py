@@ -24,33 +24,37 @@ def populate():
     """Create tables and insert initial data using an SQL file."""
     with get_conn() as conn:
         with conn.cursor() as cursor:
-            tables_csv = {
+            special_tables_csv = {
                 "Teams": "data/teams.csv",
                 "Arenas" : "data/arena.csv",
                 "Playoffs" : "data/playoffs.csv",
                 "Player": "data/player.csv",
                 "Game": "data/game.csv",
                 "Rosters": "data/roster.csv",
-            }
-            special_tables_csv = {
-                "RosterMembers": "data/rostermembers.csv",
+                 "RosterMembers": "data/rostermembers.csv",
                 "GameSeries": "data/gameseries.csv",
                 "PlayerStats": "data/playerStats.csv",
                 "TeamArenas": "data/teamArena.csv",
-
             }
+            # special_tables_csv = {
+            #     "RosterMembers": "data/rostermembers.csv",
+            #     "GameSeries": "data/gameseries.csv",
+            #     "PlayerStats": "data/playerStats.csv",
+            #     "TeamArenas": "data/teamArena.csv",
 
-            for table_name, csv_path in tables_csv.items():
-                with open(csv_path, 'r', encoding='utf-8') as csv_file:
-                    all_lines = csv_file.readlines()
-                    for l in all_lines[1:]:
-                        l = l.strip().replace("'", "").replace('"', "'").split(',')
-                        l[0] = "DEFAULT"
-                        l = ",".join(l)
-                        sql_query = f"INSERT INTO {table_name} VALUES ({l});"
-                        print(sql_query)
-                        cursor.execute(sql_query)
-                print(f"Data inserted into {table_name} successfully. Sample rows:")
+            # }
+
+            # for table_name, csv_path in tables_csv.items():
+            #     with open(csv_path, 'r', encoding='utf-8') as csv_file:
+            #         all_lines = csv_file.readlines()
+            #         for l in all_lines[1:]:
+            #             l = l.strip().replace("'", "").replace('"', "'").split(',')
+            #             l[0] = "DEFAULT"
+            #             l = ",".join(l)
+            #             sql_query = f"INSERT INTO {table_name} VALUES ({l});"
+            #             print(sql_query)
+            #             cursor.execute(sql_query)
+            #     print(f"Data inserted into {table_name} successfully. Sample rows:")
 
             for table_name, csv_path in special_tables_csv.items():
                 with open(csv_path, 'r', encoding='utf-8') as csv_file:
