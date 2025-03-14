@@ -122,7 +122,7 @@ CREATE TABLE PlayerStats
 
 CREATE TABLE TeamArenas
 (
-    arena_id VARCHAR(200) NOT NULL,
+    arena_name VARCHAR(200) NOT NULL,
     team_name VARCHAR(200) NOT NULL,
     PRIMARY KEY (arena_id, team_name),
     FOREIGN KEY (arena_id) REFERENCES Arenas(arena_name),
