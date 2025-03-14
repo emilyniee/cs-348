@@ -48,6 +48,18 @@ NBA_TEAMS = {
 
 
 output_csv = "./data/playerStats_test.csv"
+missing_games_csv = "./data/missing_games.csv"
+missing_players_csv = "./data/missing_players.csv"
+
+# Ensure missing_games.csv has headers
+with open(missing_games_csv, "w", newline="", encoding="utf-8") as file:
+    writer = csv.DictWriter(file, fieldnames=["date_val", "team"])
+    writer.writeheader()  # Write headers once
+
+
+with open(missing_players_csv, "w", newline="", encoding="utf-8") as file:
+    writer = csv.DictWriter(file, fieldnames=["player_name"])
+    writer.writeheader()  # Write headers once
 
 
 with open(output_csv, "w", newline="", encoding="utf-8") as file:
@@ -64,6 +76,8 @@ with open("./populate_script/player_game_stats.csv", "r", encoding="utf-8") as f
     # Cache for repeated database queries
     game_id_cache = {}
     player_id_cache = {}
+    missing_games_set = set()
+    missing_players_set = set()
 
     for game in reader:
         game_args = {
@@ -87,11 +101,29 @@ with open("./populate_script/player_game_stats.csv", "r", encoding="utf-8") as f
             player_id = player_id_cache[player_key]
         else:
             player_id = make_query('get_player_id.sql', player_args)
-            player_id_cache[player_key] = player_id  # Cache it
 
-        if not game_id or not player_id:
-            print(f"Skipping game {game_args} or player {player_args} due to missing IDs.")
-            continue
+            if not player_id:
+                if player_key not in missing_players_set:  # Avoid duplicates
+                    with open(missing_players_csv, "a", newline="", encoding="utf-8") as file:
+                        writer = csv.DictWriter(file, fieldnames=["player_name"])
+                        writer.writerow({"player_name": player_key})  # Write missing player
+                    missing_players_set.add(player_key)  # Track written players
+
+                print(f"Missing player: {player_args}")
+                continue  # Skip this entry
+            else:
+                player_id_cache[player_key] = player_id  # Cache it
+
+
+        if not game_id:
+            if game_key not in missing_games_set:  # Avoid duplicates
+                with open(missing_games_csv, "a", newline="", encoding="utf-8") as file:
+                    writer = csv.DictWriter(file, fieldnames=["date_val", "team"])
+                    writer.writerow(game_args)  # Write missing game
+                missing_games_set.add(game_key)  # Track written games
+
+            print(f"Missing game: {game_args}")
+            continue  # Skip this entry
 
         entry = {
             "player_id": player_id[0][0],
