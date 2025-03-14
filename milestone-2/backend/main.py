@@ -50,3 +50,10 @@ def get_arena_stats():
       'arena_name': 'Michigan Arena'
     })
     return res
+
+@app.get('/birthdays')
+def get_birthdays():
+    res = make_query('5_birthdays.sql', {
+      'birthday': '03-11'
+    })
+    return res
