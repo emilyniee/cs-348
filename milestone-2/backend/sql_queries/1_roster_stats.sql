@@ -1,6 +1,6 @@
 SELECT
     player_id,
-    name,
+    player_name,
     avg_points
 FROM
     (

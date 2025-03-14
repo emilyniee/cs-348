@@ -1,4 +1,4 @@
-game_id,home_team_id,away_team_id,season,date,is_playoff,home_score,away_score,arena_id
+game_id,home_team_name,away_team_name,season,date,is_playoff,home_score,away_score,arena_id
 1,"DENVER NUGGETS","LOS ANGELES LAKERS","2023-2024","2023-10-24",False,119,107,"Ball Arena"
 2,"GOLDEN STATE WARRIORS","PHOENIX SUNS","2023-2024","2023-10-25",False,104,108,"Chase Center"
 3,"ORLANDO MAGIC","HOUSTON ROCKETS","2023-2024","2023-10-25",False,116,86,"Amway Center"

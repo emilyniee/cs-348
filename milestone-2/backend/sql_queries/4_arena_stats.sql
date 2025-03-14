@@ -38,7 +38,7 @@ WITH
     TopAwayTeams AS (
         SELECT
             a.away_team_name,
-            t.name AS team_name,
+            t.team_name AS team_name,
             (a.wins * 100.0 / a.total_games) AS win_percentage,
             RANK() OVER (
                 ORDER BY
@@ -50,7 +50,7 @@ WITH
     )
 SELECT
     'Home Team' AS category,
-    t.name AS team_name,
+    t.team_name AS team_name,
     (h.wins * 100.0 / h.total_games) AS win_percentage
 FROM
     HomeStats h

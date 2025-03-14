@@ -31,7 +31,7 @@ WITH
          team_away
    )
 SELECT
-   Teams.name,
+   Teams.team_name,
    opponent_team,
    avg_point_diff
 FROM
