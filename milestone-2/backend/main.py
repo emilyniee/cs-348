@@ -27,7 +27,7 @@ def read_root():
 @app.get('/roster_stats')
 def get_roster_stats():
     res = make_query('1_roster_stats.sql', {
-        'season': "2023",
+        'season': "2023-2024",
         'team_name': 'BOSTON CELTICS'
     })
     return res
@@ -47,7 +47,7 @@ def get_leaderboards():
 @app.get('/arena_stats')
 def get_arena_stats():
     res = make_query('4_arena_stats.sql', {
-      'arena_name': 'Michigan Arena'
+      'arena_name': 'State Farm Arena'
     })
     return res
 

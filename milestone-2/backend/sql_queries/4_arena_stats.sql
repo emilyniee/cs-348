@@ -11,7 +11,7 @@ WITH
             ) AS wins
         FROM
             Game g
-            JOIN Arenas a ON g.arena_id = a.arena_id
+            JOIN Arenas a ON g.arena_name = a.arena_name
         WHERE
             a.arena_name = ${arena_name}
         GROUP BY
@@ -29,7 +29,7 @@ WITH
             ) AS wins
         FROM
             Game g
-            JOIN Arenas a ON g.arena_id = a.arena_id
+            JOIN Arenas a ON g.arena_name = a.arena_name
         WHERE
             a.arena_name = ${arena_name}
         GROUP BY
