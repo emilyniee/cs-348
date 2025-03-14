@@ -124,8 +124,8 @@ CREATE TABLE TeamArenas
 (
     arena_name VARCHAR(200) NOT NULL,
     team_name VARCHAR(200) NOT NULL,
-    PRIMARY KEY (arena_id, team_name),
-    FOREIGN KEY (arena_id) REFERENCES Arenas(arena_name),
+    PRIMARY KEY (arena_name, team_name),
+    FOREIGN KEY (arena_name) REFERENCES Arenas(arena_name),
     FOREIGN KEY (team_name) REFERENCES Teams(team_name)
 
 );
