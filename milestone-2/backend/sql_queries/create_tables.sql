@@ -131,3 +131,4 @@ CREATE TABLE TeamArenas
 );
 
 
+CREATE INDEX idx_game_arena_name ON Game(arena_name);
