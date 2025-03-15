@@ -1,7 +1,7 @@
 WITH FilteredGames AS (
     SELECT *
     FROM Game
-    WHERE arena_name = ${arena_name}
+    WHERE arena_name = %(arena_name)s
 )
 , HomeStats AS (
     SELECT
