@@ -24,7 +24,8 @@ Use email admin@admin.com and password pgadmin to sign in.
 
 ## Sample features/functionalities
 Homepage
-<img width="991" alt="image" src="https://github.com/user-attachments/assets/4f466075-2cb1-4bd0-841a-36e7cc434c28" />
+![image](https://github.com/user-attachments/assets/baf548ff-4a62-48a0-b4e4-90b9199a9c13)
+
 
 Leaderboard of players of all time, in terms of average points scored per game played
 ![image](https://github.com/user-attachments/assets/7f524516-873c-45fb-a23a-6c2c0611d7dd)
