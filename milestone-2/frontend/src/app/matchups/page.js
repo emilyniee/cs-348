@@ -24,9 +24,8 @@ export default function Home() {
   var bestMatchups = [];
   if (data != null) {
     JSON.stringify(data)
-    parsedData = data.map(([opName, id, ptsScored]) => ({
+    parsedData = data.map(([opName, ptsScored]) => ({
       opName,
-      id,
       ptsScored
     }));
 
@@ -64,9 +63,9 @@ export default function Home() {
         <div className='bg-blue-100 rounded-lg '>
           <div className="space-y-3 max-h-72 overflow-y-auto p-6">
             <h1 className="font-semibold text-lg text-gray-800"> Best</h1>
-            {bestMatchups.map((team) => (
+            {bestMatchups.map((team, idx) => (
               <div
-                key={team.id}
+                key={team.opName + idx}
                 className="flex items-center justify-between bg-white px-4 py-2 rounded-lg shadow-md"
               >
                 <div className="font-semibold text-lg text-gray-800 mr-4">{team.opName}</div>
@@ -77,9 +76,9 @@ export default function Home() {
           
           <div className="space-y-3 max-h-72 overflow-y-auto p-6">
           <h1 className="font-semibold text-lg text-gray-800"> Worst</h1>
-            {worstMatchups.map((team) => (
+            {worstMatchups.map((team, idx) => (
               <div
-                key={team.id}
+                key={team.opName + idx}
                 className="flex items-center justify-between bg-white px-4 py-2 rounded-lg shadow-md"
               >
                 <div className="font-semibold text-lg text-gray-800 mr-4">{team.opName}</div>
