@@ -58,7 +58,7 @@ with open(output_csv, "w", newline="", encoding="utf-8") as file:
     writer.writeheader()
 
 # Now process CSV row-by-row and write each entry immediately
-with open("./populate_script/player_game_stats.csv", "r", encoding="utf-8") as file:
+with open("./helper_data/player_game_stats.csv", "r", encoding="utf-8") as file:
     reader = csv.DictReader(file)
 
     # Cache for repeated database queries
