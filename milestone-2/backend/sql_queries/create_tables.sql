@@ -80,7 +80,6 @@ CREATE TABLE RosterMembers
 (
     player_id INT NOT NULL, 
     roster_id INT NOT NULL,
-    season VARCHAR(10) NOT NULL,
     PRIMARY KEY (player_id, roster_id),
     FOREIGN KEY (player_id) REFERENCES Player(player_id),
     FOREIGN KEY (roster_id) REFERENCES Rosters(roster_id)
