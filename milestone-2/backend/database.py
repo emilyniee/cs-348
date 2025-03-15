@@ -20,6 +20,7 @@ def init():
         conn.commit()
     
     populate()
+    create_views()
 def populate():
     """Create tables and insert initial data using an SQL file."""
     with get_conn() as conn:
@@ -67,7 +68,8 @@ def populate():
         conn.commit()
     print("Database tables created/updated successfully.")
 
-
+def create_views():
+  make_query("3_leaderboards_materialized_view.sql")
 
 def execute_query(query):
   """
