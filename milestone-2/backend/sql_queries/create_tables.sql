@@ -1,4 +1,5 @@
 -- Drop existing tables (include all tables that will be re-created)
+DROP MATERIALIZED VIEW IF EXISTS player_avg_points;
 DROP TABLE IF EXISTS PlayerStats;
 DROP TABLE IF EXISTS RosterMembers;
 DROP TABLE IF EXISTS GameSeries;

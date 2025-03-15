@@ -40,7 +40,7 @@ def get_team_best_worst_matchup(teamName: str = Query(..., description="Team nam
 
 @app.get("/leaderboards")
 def get_leaderboards():
-    res = execute_prepared_query('3_leaderboards_production.sql')
+    res = execute_prepared_query('3_leaderboards_production_use_view.sql')
     return res
 
 @app.get('/arena_stats')
