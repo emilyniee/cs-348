@@ -22,6 +22,10 @@ Requests can be made to the backend at http://localhost:8000/
 To view the database, you can access PgAdmin at http://localhost:5050
 Use email admin@admin.com and password pgadmin to sign in.
 
+## Production Dataset
+The production dataset is generated using the scripts found in `backend/data_processing_scripts` which generates the csv found in `backend/data`. 
+The dataset is scraped and downloaded from https://www.basketball-reference.com/ using the API `basketball_reference_web_scraper` and is populated in the postgreSQL database using `def populate` in `database.py`
+
 ## Sample features/functionalities
 Homepage
 ![image](https://github.com/user-attachments/assets/baf548ff-4a62-48a0-b4e4-90b9199a9c13)
