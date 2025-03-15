@@ -65,7 +65,7 @@ export default function Home() {
                 className="flex items-center justify-between bg-white px-4 py-2 rounded-lg shadow-md"
               >
                 <div className="font-semibold text-lg text-gray-800 mr-4">{team.opName}</div>
-                <div className="text-red-400 font-bold">{team.ptsScored} pts</div>
+                <div className="text-red-400 font-bold">{team.ptsScored.toFixed(2)} pts</div>
               </div>
             ))}
           </div>
@@ -78,7 +78,7 @@ export default function Home() {
                 className="flex items-center justify-between bg-white px-4 py-2 rounded-lg shadow-md"
               >
                 <div className="font-semibold text-lg text-gray-800 mr-4">{team.opName}</div>
-                <div className="text-red-400 font-bold">{team.ptsScored} pts</div>
+                <div className="text-red-400 font-bold">{team.ptsScored.toFixed(2)} pts</div>
               </div>
             ))}
           </div>
