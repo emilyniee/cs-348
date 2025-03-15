@@ -131,4 +131,15 @@ def make_query(query, args = {}):
     res = f"An error occured: {e}"
   finally:
     return res
+
+
+
+def execute_prepared_query(query, args = {}):
+  with open('./sql_queries/'+query, 'r') as sql_file:
+    sql_query = sql_file.read()
   
+  with get_conn() as conn:
+     with conn.cursor() as cursor:
+        cursor.execute(sql_query, args)
+        res = cursor.fetchall()
+  return res
