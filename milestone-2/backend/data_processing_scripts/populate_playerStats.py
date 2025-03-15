@@ -7,11 +7,10 @@ from database import init, make_query
 def convert_date(date_str):
     """Convert date string from 'April 10, 2024' to 'YYYY-MM-DD'."""
     try:
-        dt = datetime.strptime(date_str, "%B %d, %Y")  # Convert from text format
-        return dt.strftime("%Y-%m-%d")  # Convert to 'YYYY-MM-DD'
+        dt = datetime.strptime(date_str, "%B %d, %Y")
+        return dt.strftime("%Y-%m-%d")
     except ValueError:
-        return date_str  # Return original if conversion fails
-    
+        return date_str
 
 NBA_TEAMS = {
     "ATL": "ATLANTA HAWKS",
@@ -46,9 +45,7 @@ NBA_TEAMS = {
     "WAS": "WASHINGTON WIZARDS",
 }
 
-
 output_csv = "./data/playerStats_test.csv"
-
 
 with open(output_csv, "w", newline="", encoding="utf-8") as file:
     fieldnames = ["player_id", "game_id", "points", "assists", "rebounds", "blocks", 
@@ -57,11 +54,9 @@ with open(output_csv, "w", newline="", encoding="utf-8") as file:
     writer = csv.DictWriter(file, fieldnames=fieldnames)
     writer.writeheader()
 
-# Now process CSV row-by-row and write each entry immediately
-with open("./populate_script/player_game_stats.csv", "r", encoding="utf-8") as file:
+with open("./helper_data/player_game_stats.csv", "r", encoding="utf-8") as file:
     reader = csv.DictReader(file)
 
-    # Cache for repeated database queries
     game_id_cache = {}
     player_id_cache = {}
 
@@ -71,23 +66,21 @@ with open("./populate_script/player_game_stats.csv", "r", encoding="utf-8") as f
             "team": NBA_TEAMS.get(game["MATCHUP"][:3], "UNKNOWN")
         }
 
-        # **Use Cache for game_id**
         game_key = (game_args["date_val"], game_args["team"])
         if game_key in game_id_cache:
             game_id = game_id_cache[game_key]
         else:
             game_id = make_query('get_team_id.sql', game_args)
-            game_id_cache[game_key] = game_id  # Cache it
+            game_id_cache[game_key] = game_id
 
         player_args = {"player_name": game["Full Name"] + '%'}
 
-        # **Use Cache for player_id**
         player_key = game["Full Name"]
         if player_key in player_id_cache:
             player_id = player_id_cache[player_key]
         else:
             player_id = make_query('get_player_id.sql', player_args)
-            player_id_cache[player_key] = player_id  # Cache it
+            player_id_cache[player_key] = player_id
 
         if not game_id or not player_id:
             print(f"Skipping game {game_args} or player {player_args} due to missing IDs.")
@@ -110,7 +103,6 @@ with open("./populate_script/player_game_stats.csv", "r", encoding="utf-8") as f
             "minutes_played": game["MIN"]
         }
 
-        # Append to CSV file immediately
         with open(output_csv, "a", newline="", encoding="utf-8") as file:
             writer = csv.DictWriter(file, fieldnames=fieldnames)
             writer.writerow(entry)

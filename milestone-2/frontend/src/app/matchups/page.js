@@ -39,10 +39,6 @@ export default function Home() {
     }
   }
 
-  // if (!data || !parsedData) return (
-  //   <div className='flex flex-col items-center justify-center min-h-screen min-w-screen bg-blue-200 text-gray-800'>Loading leaderboard...</div>
-  // )
-
   return (
     <div className='flex flex-col items-center justify-center min-h-screen min-w-screen bg-blue-200 text-black'>
       <h1 className="font-semibold text-xltext-gray-800"> Matchups of the Season </h1>
@@ -69,7 +65,7 @@ export default function Home() {
                 className="flex items-center justify-between bg-white px-4 py-2 rounded-lg shadow-md"
               >
                 <div className="font-semibold text-lg text-gray-800 mr-4">{team.opName}</div>
-                <div className="text-red-400 font-bold">{team.ptsScored} pts</div>
+                <div className="text-red-400 font-bold">{team.ptsScored.toFixed(2)} pts</div>
               </div>
             ))}
           </div>
@@ -82,7 +78,7 @@ export default function Home() {
                 className="flex items-center justify-between bg-white px-4 py-2 rounded-lg shadow-md"
               >
                 <div className="font-semibold text-lg text-gray-800 mr-4">{team.opName}</div>
-                <div className="text-red-400 font-bold">{team.ptsScored} pts</div>
+                <div className="text-red-400 font-bold">{team.ptsScored.toFixed(2)} pts</div>
               </div>
             ))}
           </div>

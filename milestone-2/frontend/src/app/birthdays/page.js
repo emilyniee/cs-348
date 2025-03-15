@@ -6,8 +6,6 @@ export default function Home() {
   const [day, setDay] = useState("");
   const [data, setData] = useState(null);
 
-  const [fillerText, setFillerText] = useState("");
-
   const fetchBirthdays = () => {
     if (!month || !day) return;
 
@@ -70,11 +68,6 @@ export default function Home() {
           ))}
         </div>
       </div>)}
-
-        {/* <div className="space-y-3 max-h-72 overflow-y-auto">
-          {fillerText}
-        </div> */}
-
     </div>
   );
 }
