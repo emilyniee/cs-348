@@ -1,9 +1,10 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Query
 import os
-from database import init, make_query
+from database import init, make_query, execute_prepared_query
 
 from fastapi.middleware.cors import CORSMiddleware
 
+import time
 
 app = FastAPI()
 
@@ -26,34 +27,35 @@ def read_root():
 
 @app.get('/roster_stats')
 def get_roster_stats():
-    res = make_query('1_roster_stats.sql', {
-        'season': "2023",
+    res = execute_prepared_query('1_roster_stats_production.sql', {
+        'season': "2023-2024",
         'team_name': 'BOSTON CELTICS'
     })
     return res
 
 @app.get('/team_best_worst_matchup')
-def get_team_best_worst_matchup():
-    res = make_query('2_team_best_worst_matchups.sql', {
-       'team_name': 'BOSTON CELTICS'
+def get_team_best_worst_matchup(teamName: str = Query(..., description="Team name")):
+    res = execute_prepared_query('2_team_best_worst_matchups_production.sql', {
+       'team_name': teamName
     })
     return res
 
 @app.get("/leaderboards")
 def get_leaderboards():
-    res = make_query('3_leaderboards.sql')
+    res = execute_prepared_query('3_leaderboards_production.sql')
     return res
 
 @app.get('/arena_stats')
 def get_arena_stats():
-    res = make_query('4_arena_stats.sql', {
-      'arena_name': 'Michigan Arena'
+    res = execute_prepared_query('4_arena_stats_production.sql', {
+      'arena_name': 'State Farm Arena'
     })
     return res
 
 @app.get('/birthdays')
-def get_birthdays():
-    res = make_query('5_birthdays.sql', {
-      'birthday': '03-11'
+def get_birthdays(month: str = Query(..., description="MM"), day: str = Query(..., description="DD")):
+    res = execute_prepared_query('5_birthdays_production.sql', {
+      'bday_month': month,
+      'bday_day': day
     })
     return res
