@@ -11,13 +11,9 @@ import pytz
 http_service = HTTPService(parser=ParserService())
 utc=pytz.UTC
 
-# Specify the season end year.
 season_end_year = 2024
-
-# Fetch standings data (which returns a list of dicts with a "team" key as a Team enum)
 standings_data = http_service.standings(season_end_year=season_end_year)
 
-# Build a mapping from each team (Team enum) to its team name (string).
 teams_mapping = {}
 for record in standings_data:
     team_enum = record["team"]
@@ -31,7 +27,6 @@ with open("milestone-2/backend/data/teamArena.csv", mode="r", newline="") as f:
     for row in reader:
         csv_team_name = row["team_name"].strip()
         csv_arena_name = row["arena_id"].strip()
-        # Find the matching team enum by comparing team names.
         for team_enum, team_name in teams_mapping.items():
             if team_name == csv_team_name:
                 arena_mapping[team_enum] = csv_arena_name
@@ -52,12 +47,10 @@ with open("game.csv", mode="w", newline="") as csvfile:
     writer.writeheader()
 
     game_id_counter = 1
-    # Define the season string (e.g., "2018-2019")
+
     season_str = f"{season_end_year - 1}-{season_end_year}"
     is_playoff = False
     for game in schedule_data:
-        
-        # Extract and format the date from the start_time.
         start_time = game["start_time"]
 
         date_str = start_time.strftime("%Y-%m-%d") if hasattr(start_time, "strftime") else str(start_time)
@@ -69,8 +62,6 @@ with open("game.csv", mode="w", newline="") as csvfile:
         away_team = game["away_team"]
         home_team_id = teams_mapping.get(home_team)
         away_team_id = teams_mapping.get(away_team)
-        
-        # Lookup arena "ID" (which is the arena name) using the home team.
         arena_id = arena_mapping.get(home_team)
                 
         writer.writerow({
