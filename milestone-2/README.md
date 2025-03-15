@@ -27,7 +27,17 @@ Homepage
 <img width="991" alt="image" src="https://github.com/user-attachments/assets/4f466075-2cb1-4bd0-841a-36e7cc434c28" />
 
 Leaderboard of players of all time, in terms of average points scored per game played
-<img width="991" alt="image" src="https://github.com/user-attachments/assets/bb58e096-4221-49ca-adf2-582942191b06" />
+![image](https://github.com/user-attachments/assets/7f524516-873c-45fb-a23a-6c2c0611d7dd)
+
+
+Best and worst matchups for a given team this season
+![image](https://github.com/user-attachments/assets/a29dcd27-3634-4a16-b322-7fcd011c5478)
+![image](https://github.com/user-attachments/assets/5fffb156-c034-4602-9d31-e177398d7d8c)
+
+
+Finding players that share the same birthday as you
+![image](https://github.com/user-attachments/assets/4657e57a-a500-4fff-851b-b9fc58711f89)
+![image](https://github.com/user-attachments/assets/c67ac2fa-4c2d-4752-9ed4-8f8515f4812a)
 
 
 ## Error Handling
