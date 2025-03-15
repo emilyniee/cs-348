@@ -54,6 +54,7 @@ def get_arena_stats():
 @app.get('/birthdays')
 def get_birthdays():
     res = make_query('5_birthdays.sql', {
-      'birthday': '03-11'
+      'bday_month': '10',
+      'bday_day': '16'
     })
     return res
