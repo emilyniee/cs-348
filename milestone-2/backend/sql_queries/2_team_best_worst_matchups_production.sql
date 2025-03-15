@@ -6,7 +6,7 @@ WITH
       FROM
          Game
       WHERE
-         home_team_name = ${team_name}
+         home_team_name = %(team_name)s
    ),
    team_away AS (
       SELECT
@@ -15,7 +15,7 @@ WITH
       FROM
          Game
       WHERE
-         away_team_name = ${team_name}
+         away_team_name = %(team_name)s
    ),
    all_games AS (
       SELECT
@@ -31,7 +31,6 @@ WITH
          team_away
    )
 SELECT
-   Teams.team_name,
    opponent_team,
    avg_point_diff
 FROM
@@ -63,4 +62,4 @@ FROM
          FETCH FIRST
             3 ROWS ONLY
       )
-   ) JOIN Teams ON Teams.team_name = opponent_team;
+   );

@@ -13,7 +13,7 @@ WITH
             Game g
             JOIN Arenas a ON g.arena_name = a.arena_name
         WHERE
-            a.arena_name = ${arena_name}
+            a.arena_name = %(arena_name)s
         GROUP BY
             g.home_team_name
     ),
@@ -31,7 +31,7 @@ WITH
             Game g
             JOIN Arenas a ON g.arena_name = a.arena_name
         WHERE
-            a.arena_name = ${arena_name}
+            a.arena_name = %(arena_name)s
         GROUP BY
             g.away_team_name
     ),

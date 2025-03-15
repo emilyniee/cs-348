@@ -1,26 +1,20 @@
 [
   [
-    "MILWAUKEE BUCKS",
+    "SAN ANTONIO SPURS",
+    26],
+  [
+    "GOLDEN STATE WARRIORS",
+    23],
+  [
+    "UTAH JAZZ",
+    22.5],
+  [
     "MILWAUKEE BUCKS",
     -10],
   [
     "DENVER NUGGETS",
-    "DENVER NUGGETS",
     -4],
   [
-    "UTAH JAZZ",
-    "UTAH JAZZ",
-    22.5],
-  [
     "LOS ANGELES LAKERS",
-    "LOS ANGELES LAKERS",
-    1],
-  [
-    "GOLDEN STATE WARRIORS",
-    "GOLDEN STATE WARRIORS",
-    23],
-  [
-    "SAN ANTONIO SPURS",
-    "SAN ANTONIO SPURS",
-    26]
+    1]
 ]
