@@ -42,20 +42,7 @@ def get_team_best_worst_matchup(teamName: str = Query(..., description="Team nam
 
 @app.get("/leaderboards")
 def get_leaderboards():
-    start = time.time()
-    for i in range(0,100):
-        res = execute_prepared_query('3_leaderboards_production.sql')
-    end = time.time()
-    print(f"old ran in: {end-start}")
-
-    start = time.time()
-    for i in range(0,100):
-        res = execute_prepared_query('3_leaderboards_production_use_view.sql')
-    end = time.time()
-    
-    print(f"new ran in {end-start}")
-
-
+    res = execute_prepared_query('3_leaderboards_production_use_view.sql')
     return res
 
 @app.get('/arena_stats')
