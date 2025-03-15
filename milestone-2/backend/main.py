@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Query
 import os
 from database import init, make_query
 
@@ -33,9 +33,9 @@ def get_roster_stats():
     return res
 
 @app.get('/team_best_worst_matchup')
-def get_team_best_worst_matchup():
+def get_team_best_worst_matchup(teamName: str = Query(..., description="Team name")):
     res = make_query('2_team_best_worst_matchups.sql', {
-       'team_name': 'BOSTON CELTICS'
+       'team_name': teamName
     })
     return res
 
@@ -52,9 +52,9 @@ def get_arena_stats():
     return res
 
 @app.get('/birthdays')
-def get_birthdays():
+def get_birthdays(month: str = Query(..., description="MM"), day: str = Query(..., description="DD")):
     res = make_query('5_birthdays.sql', {
-      'bday_month': '10',
-      'bday_day': '16'
+      'bday_month': month,
+      'bday_day': day
     })
     return res
