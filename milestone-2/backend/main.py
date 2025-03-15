@@ -4,8 +4,6 @@ from database import init, make_query, execute_prepared_query
 
 from fastapi.middleware.cors import CORSMiddleware
 
-import time
-
 app = FastAPI()
 
 app.add_middleware(

@@ -131,3 +131,16 @@ CREATE TABLE TeamArenas
 
 
 CREATE INDEX idx_game_arena_name ON Game(arena_name);
+
+CREATE INDEX idx_team_team_name ON Teams(team_name);
+CREATE INDEX idx_roster_team_name ON Rosters(team_name);
+
+CREATE INDEX idx_team_roster_members_roster_id ON RosterMembers(roster_id);
+
+CREATE INDEX idx_game_team_name ON Game(home_team_name);
+CREATE INDEX idx_game_team_name_away ON Game(away_team_name);
+
+CREATE INDEX idx_game_game_id ON Game(game_id);
+CREATE INDEX idx_player_stats_game_id ON PlayerStats(game_id);
+
+CREATE INDEX idx_game_season ON Game(season);
