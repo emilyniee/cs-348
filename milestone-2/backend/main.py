@@ -46,13 +46,14 @@ def get_leaderboards():
     for i in range(0,100):
         res = execute_prepared_query('3_leaderboards_production.sql')
     end = time.time()
-    print(f"old ran in: ${end-start}")
+    print(f"old ran in: {end-start}")
 
-
+    start = time.time()
     for i in range(0,100):
         res = execute_prepared_query('3_leaderboards_production_use_view.sql')
-
-    print(f"new ran in ${end-start}")
+    end = time.time()
+    
+    print(f"new ran in {end-start}")
 
 
     return res
