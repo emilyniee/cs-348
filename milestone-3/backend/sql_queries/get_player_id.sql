@@ -1,0 +1,1 @@
+SELECT player_id FROM Player WHERE player_name LIKE ${player_name} LIMIT 1
