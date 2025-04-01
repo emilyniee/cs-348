@@ -8,7 +8,6 @@ SELECT
     AVG(pas.avg_turnovers)       AS position_avg_turnovers,
     AVG(pas.avg_three_pt_percent) AS position_avg_three_pt_percent,
     AVG(pas.avg_fg_percent)      AS position_avg_fg_percent,
-    AVG(pas.avg_ts_percent)      AS position_avg_ts_percent,
     AVG(pas.avg_ft_percent)      AS position_avg_ft_percent,
     AVG(pas.avg_minutes_played)  AS position_avg_minutes
 FROM Player as p

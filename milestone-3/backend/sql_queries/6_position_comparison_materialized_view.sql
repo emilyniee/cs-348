@@ -12,7 +12,6 @@ SELECT
    AVG(ps.three_pt_attempts) AS avg_three_pt_attempts,
    AVG(ps.three_pt_percent) AS avg_three_pt_percent,
    AVG(ps.fg_percent) AS avg_fg_percent,
-   AVG(ps.ts_percent) AS avg_ts_percent,
    AVG(ps.ft_percent) AS avg_ft_percent,
    AVG(ps.minutes_played) AS avg_minutes_played
 FROM Player p
