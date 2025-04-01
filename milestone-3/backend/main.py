@@ -58,6 +58,13 @@ def get_birthdays(month: str = Query(..., description="MM"), day: str = Query(..
     })
     return res
 
+
+
+@app.get('/position_comparison')
+def get_position_comparison():
+    res = execute_prepared_query('6_position_comparison_production.sql')
+    return res
+    
 @app.get('/longest_win_streaks')
 def get_longest_win_streaks():
     res = execute_prepared_query('7_longest_win_streaks_production.sql', {
