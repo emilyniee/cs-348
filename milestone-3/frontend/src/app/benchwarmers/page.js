@@ -75,7 +75,9 @@ export default function Benchwarmers() {
           type="number"
           placeholder="Enter threshold minute..."
           value={thresholdMinute}
-          onChange={(e) => setThresholdMinute(e.target.value)}
+          onChange={(e) =>
+            setThresholdMinute(e.target.value === "" ? "15" : e.target.value)
+          }
           className="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 text-gray-800"
         />
       </div>
