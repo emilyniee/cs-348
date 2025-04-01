@@ -26,9 +26,9 @@ export default function HomePage() {
           <Link href="/benchwarmers" className="text-blue-500 hover:text-blue-700">Click Here</Link>
         </div>
         <div className="bg-white p-8 rounded-md flex flex-col justify-center">
-          <h3 className="text-2xl font-semibold text-gray-700">Filler</h3>
-          <p className="text-gray-600">Filler!</p>
-          <Link href="/birthdays" className="text-blue-500 hover:text-blue-700">Click Here</Link>
+          <h3 className="text-2xl font-semibold text-gray-700 mb-4">Position Comparison</h3>
+          <p className="text-gray-600 mb-6">Compare stats for a given position!</p>
+          <Link href="/position-comparison" className="text-blue-500 hover:text-blue-700">Click Here</Link>
         </div>
       </div>
       <div className="grid grid-cols-1 gap-4 col-span-2">
@@ -67,6 +67,7 @@ export default function HomePage() {
             <p className="text-gray-600">Find the teams with the longest win streaks!</p>
             <Link href="/winstreaks" className="text-blue-500 hover:text-blue-700">Click Here</Link>
           </div>
+
         </div>
       </div>
     </div>
