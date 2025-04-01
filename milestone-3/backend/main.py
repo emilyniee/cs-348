@@ -58,6 +58,13 @@ def get_birthdays(month: str = Query(..., description="MM"), day: str = Query(..
     })
     return res
 
+@app.get('/longest_win_streaks')
+def get_longest_win_streaks():
+    res = execute_prepared_query('7_longest_win_streaks_production.sql', {
+      'season': '2023-2024'
+    })
+    return res
+
 @app.get("/best_benchwarmers")
 def get_benchwarmers():
     res = execute_prepared_query('10_best_benchwarmers_production.sql')

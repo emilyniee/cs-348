@@ -109,7 +109,6 @@ CREATE TABLE PlayerStats
     three_pt_attempts INT,
     three_pt_percent DECIMAL,
     fg_percent DECIMAL,
-    ts_percent DECIMAL,
     ft_percent DECIMAL,
     minutes_played INT,
     PRIMARY KEY (player_id, game_id),
