@@ -3,7 +3,6 @@ import { useState, useEffect} from 'react';
 
 export default function Home() {
   const [data, setData] = useState(null);
-  const [teamName, setTeamName] = useState("");
 
   useEffect(() => {
     fetch("http://localhost:8000/most_triple_doubles")
@@ -14,8 +13,6 @@ export default function Home() {
   
 
   var parsedData = [];
-  var worstMatchups = [];
-  var bestMatchups = [];
   if (data != null) {
     JSON.stringify(data)
     console.log(data)
