@@ -1,34 +1,50 @@
 [
-  [8, "Jayson Tatum",
-    26.8513513513514],
-  [22, "Jaylen Brown",
-    23],
-  [73, "Kristaps Porziņģis",
-    20.0877192982456],
-  [79, "Derrick White",
-    15.1643835616438],
-  [127, "Jrue Holiday",
-    12.463768115942],
-  [143, "Payton Pritchard",
-    9.59756097560976],
-  [160, "Sam Hauser",
-    9.0126582278481],
-  [195, "Al Horford",
-    8.64615384615385],
-  [199, "Dalano Banton",
-    3.53846153846154],
-  [274, "Luke Kornet",
-    5.3015873015873],
-  [305, "Lamar Stevens",
-    2.78947368421053],
-  [366, "Svi Mykhailiuk",
-    3.95121951219512],
-  [371, "Neemias Queta",
-    5.5],
-  [515, "JD Davison",
-    2],
-  [517, "Jordan Walsh",
-    1.66666666666667],
-  [534, "Drew Peterson",
-    3.66666666666667]
+  [
+    8,"Jayson Tatum","1998-03-03","POWER FORWARD",26.85135135135135
+  ],
+  [
+    22,"Jaylen Brown","1996-10-24","SMALL FORWARD",23.0
+  ],
+  [
+    73,"Kristaps Porziņģis","1995-08-02","CENTER",20.087719298245613
+  ],
+  [
+    79,"Derrick White","1994-07-02","SHOOTING GUARD",15.164383561643836
+  ],
+  [
+    127,"Jrue Holiday","1990-06-12","POINT GUARD",12.46376811594203
+  ],
+  [
+    143,"Payton Pritchard","1998-01-28","POINT GUARD",9.597560975609756
+  ],
+  [
+    160,"Sam Hauser","1997-12-08","SMALL FORWARD",9.012658227848101
+  ],
+  [
+    195,"Al Horford","1986-06-03","CENTER",8.646153846153846
+  ],
+  [
+    199,"Dalano Banton","1999-11-07","POINT GUARD",3.5384615384615383
+  ],
+  [
+    274,"Luke Kornet","1995-07-15","CENTER",5.301587301587301
+  ],
+  [
+    305,"Lamar Stevens","1997-07-09","POWER FORWARD",2.789473684210526
+  ],
+  [
+    366,"Svi Mykhailiuk","1997-06-10","SMALL FORWARD",3.951219512195122
+  ],
+  [
+    371,"Neemias Queta","1999-07-13","CENTER",5.5
+  ],
+  [
+    515,"JD Davison","2002-10-03","SHOOTING GUARD",2.0
+  ],
+  [
+    517,"Jordan Walsh","2004-03-03","SMALL FORWARD",1.6666666666666667
+  ],
+  [
+    534,"Drew Peterson","1999-11-09","POWER FORWARD",3.6666666666666665
+  ]
 ]

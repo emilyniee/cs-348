@@ -22,6 +22,8 @@ StatsPerGames AS (
 SELECT
     player_id,
     player_name,
+    birthday, 
+    position,
     avg_points
 FROM
     (
