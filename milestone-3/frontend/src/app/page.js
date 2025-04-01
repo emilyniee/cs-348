@@ -32,9 +32,6 @@ export default function HomePage() {
             <p className="text-gray-600 mb-6">Find players with the most triple doubles 😈</p>
             <Link href="/triple-doubles" className="text-blue-500 hover:text-blue-700">Click Here</Link>
           </div>
-        </div>
-
-        <div className="flex justify-center gap-8">
           <div className="bg-white p-8 rounded-lg shadow-md text-center flex flex-col justify-center h-100 w-80">
             <h3 className="text-2xl font-semibold text-blue-600 mb-4">Most Improved Teams</h3>
             <p className="text-gray-600 mb-6">Teams with the most improvement in the season</p>
