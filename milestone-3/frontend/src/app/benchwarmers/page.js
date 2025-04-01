@@ -9,10 +9,13 @@ export default function Benchwarmers() {
 
   // Re-fetch data whenever the thresholdMinute changes
   useEffect(() => {
+    if(thresholdMinute.trim() === "")
+      return;
     fetch(`http://localhost:8000/best_benchwarmers?threshold_minute=${thresholdMinute}`)
-      .then((res) => res.json())
-      .then((data) => setData(data))
-      .catch((error) => console.error("Error fetching data:", error));
+    .then((res) => res.json())
+    .then((data) => setData(data))
+    .catch((error) => console.error("Error fetching data:", error));
+    
   }, [thresholdMinute]);
   
   let parsedData = [];
@@ -75,9 +78,7 @@ export default function Benchwarmers() {
           type="number"
           placeholder="Enter threshold minute..."
           value={thresholdMinute}
-          onChange={(e) =>
-            setThresholdMinute(e.target.value === "" ? "15" : e.target.value)
-          }
+          onChange={(e) => setThresholdMinute(e.target.value)}
           className="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 text-gray-800"
         />
       </div>
