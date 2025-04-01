@@ -83,3 +83,9 @@ def get_benchwarmers(threshold_minute: str = Query(..., description="Threshold M
         'threshold_minute': threshold_minute
     })
     return res
+
+
+@app.get('/most_improved_teams')
+def get_most_improved_teams():
+    res = execute_prepared_query('9_most_improved_teams_production.sql')
+    return res
