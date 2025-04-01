@@ -71,6 +71,8 @@ def get_benchwarmers():
     return res
 
 @app.get("/best_benchwarmers")
-def get_benchwarmers():
-    res = execute_prepared_query('10_best_benchwarmers_production.sql')
+def get_benchwarmers(threshold_minute: str = Query(..., description="Threshold Minute")):
+    res = execute_prepared_query('10_best_benchwarmers_production.sql',{
+        'threshold_minute': threshold_minute
+    })
     return res

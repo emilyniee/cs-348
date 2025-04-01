@@ -14,5 +14,5 @@ FROM Player p
 JOIN PlayerStats ps 
   ON p.player_id = ps.player_id
 GROUP BY p.player_id, p.player_name
-HAVING AVG(ps.minutes_played) < 15
+HAVING AVG(ps.minutes_played) < %(threshold_minute)s
 ORDER BY points_per36 DESC;
