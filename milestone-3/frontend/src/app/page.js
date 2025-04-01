@@ -1,7 +1,6 @@
 import Link from 'next/link';
 
 export default function HomePage() {
-
   return (
     <div className='flex items-center justify-center min-h-screen min-w-screen bg-blue-200'>
     <div className="flex-col justify-items-center">
@@ -38,6 +37,14 @@ export default function HomePage() {
             <h3 className="text-2xl font-semibold text-blue-600 mb-4">Triple Doubles</h3>
             <p className="text-gray-600 mb-6">Find players with the most triple doubles 😈</p>
             <Link href="/triple-doubles" className="text-blue-500 hover:text-blue-700">Click Here</Link>
+          </div>
+
+          <div className="bg-white p-8 rounded-lg shadow-md text-center flex flex-col justify-center h-100 w-80">
+            <h3 className="text-2xl font-semibold text-blue-600 mb-4">Benchwarmers</h3>
+            <p className="text-gray-600 mb-6">
+              Check out players with less than 15 avg minutes and rounded per36 stats!
+            </p>
+            <Link href="/benchwarmers" className="text-blue-500 hover:text-blue-700">Click Here</Link>
           </div>
         </div>
     </div>
