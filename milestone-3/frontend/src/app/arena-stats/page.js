@@ -20,8 +20,6 @@ export default function ArenaStats() {
       .catch((error) => console.error("Error fetching data:", error));
   };
 
-  // Parse the returned data which comes as an array of arrays:
-  // [category, team_name, win_percentage]
   let parsedData = [];
   if (data != null) {
     parsedData = data.map(row => ({
@@ -32,7 +30,6 @@ export default function ArenaStats() {
   }
   console.log(data)
 
-  // Separate into two arrays based on category
   const homeTeamStats = parsedData.filter(item => item.category === "Home Team");
   const topAwayStats = parsedData.filter(item => item.category === "Top Away Team");
 
