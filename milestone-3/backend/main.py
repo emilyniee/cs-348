@@ -57,3 +57,8 @@ def get_birthdays(month: str = Query(..., description="MM"), day: str = Query(..
       'bday_day': day
     })
     return res
+
+@app.get("/best_benchwarmers")
+def get_benchwarmers():
+    res = execute_prepared_query('10_best_benchwarmers_production.sql')
+    return res
