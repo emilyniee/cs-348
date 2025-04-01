@@ -70,6 +70,7 @@ def populate():
 
 def create_views():
   make_query("3_leaderboards_materialized_view.sql")
+  make_query("6_position_comparison_materialized_view.sql")
 
 def execute_query(query):
   """
