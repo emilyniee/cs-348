@@ -44,9 +44,9 @@ def get_leaderboards():
     return res
 
 @app.get('/arena_stats')
-def get_arena_stats():
+def get_arena_stats(arenaName: str = Query(..., description="Arena name")):
     res = execute_prepared_query('4_arena_stats_production.sql', {
-      'arena_name': 'State Farm Arena'
+      'arena_name': arenaName
     })
     return res
 

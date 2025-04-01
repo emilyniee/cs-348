@@ -20,6 +20,12 @@ export default function HomePage() {
           </div>
 
           <div className="bg-white p-8 rounded-lg shadow-md text-center flex flex-col justify-center h-100 w-80">
+            <h3 className="text-2xl font-semibold text-blue-600 mb-4">Arena Stats</h3>
+            <p className="text-gray-600 mb-6">Find players that share your birthday!</p>
+            <Link href="/arena-stats" className="text-blue-500 hover:text-blue-700">Click Here</Link>
+          </div>
+
+          <div className="bg-white p-8 rounded-lg shadow-md text-center flex flex-col justify-center h-100 w-80">
             <h3 className="text-2xl font-semibold text-blue-600 mb-4">Birthdays</h3>
             <p className="text-gray-600 mb-6">Find players that share your birthday!</p>
             <Link href="/birthdays" className="text-blue-500 hover:text-blue-700">Click Here</Link>
