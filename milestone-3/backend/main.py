@@ -22,12 +22,11 @@ def on_startup():
 def read_root():
     return {"Hello": "World"}
 
-
 @app.get('/roster_stats')
-def get_roster_stats():
+def get_roster_stats(teamName: str = Query(..., description="Team name")):
     res = execute_prepared_query('1_roster_stats_production.sql', {
         'season': "2023-2024",
-        'team_name': 'BOSTON CELTICS'
+        'team_name': teamName
     })
     return res
 
@@ -57,8 +56,6 @@ def get_birthdays(month: str = Query(..., description="MM"), day: str = Query(..
       'bday_day': day
     })
     return res
-
-
 
 @app.get('/position_comparison')
 def get_position_comparison():
