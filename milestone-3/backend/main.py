@@ -65,6 +65,11 @@ def get_longest_win_streaks():
     })
     return res
 
+@app.get("/most_triple_doubles")
+def get_benchwarmers():
+    res = execute_prepared_query('8_most_triple_doubles.sql')
+    return res
+
 @app.get("/best_benchwarmers")
 def get_benchwarmers():
     res = execute_prepared_query('10_best_benchwarmers_production.sql')
