@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   frontend:
-    container_name: frontend-2
+    container_name: frontend-3
     build:
       context: ./frontend
       dockerfile: Dockerfile
@@ -15,7 +15,7 @@ services:
       - /app/node_modules
       - /app/.next
   backend:
-    container_name: backend-2
+    container_name: backend-3
     build:
       context: ./backend
       dockerfile: Dockerfile
@@ -29,7 +29,7 @@ services:
       - ./backend:/app
 
   db:
-    container_name: db-2
+    container_name: db-3
     image: postgres:latest
     environment:
       POSTGRES_DB: ${POSTGRES_DB}
@@ -41,7 +41,7 @@ services:
       - postgres_data:/var/lib/postgresql/data
 
   pgadmin:
-    container_name: pgadmin-2
+    container_name: pgadmin-3
     image: dpage/pgadmin4:latest
     environment:
       - PGADMIN_DEFAULT_EMAIL=admin@admin.com

@@ -57,6 +57,7 @@ def get_birthdays(month: str = Query(..., description="MM"), day: str = Query(..
       'bday_day': day
     })
     return res
+<<<<<<< HEAD
 
 
 
@@ -64,3 +65,5 @@ def get_birthdays(month: str = Query(..., description="MM"), day: str = Query(..
 def get_position_comparison():
     res = execute_prepared_query('6_position_comparison_production.sql')
     return res
+=======
+>>>>>>> main
