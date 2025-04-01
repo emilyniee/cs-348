@@ -9,7 +9,7 @@ export default function ArenaStats() {
   const fetchArenaStats = () => {
     if (!arenaName) return;
 
-    fetch(`http://localhost:8000/arena_stats?arenaName=${encodeURIComponent(arenaName)}`)
+    fetch(`http://localhost:8000/arena_stats?arenaName=${arenaName}`)
       .then((res) => {
         if (!res.ok) {
           throw new Error(`HTTP error! Status: ${res.status}`);
@@ -18,6 +18,7 @@ export default function ArenaStats() {
       })
       .then((data) => setData(data))
       .catch((error) => console.error("Error fetching data:", error));
+      
   };
 
   let parsedData = [];
