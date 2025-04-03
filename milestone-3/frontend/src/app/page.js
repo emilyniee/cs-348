@@ -36,7 +36,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 gap-4">
             <div className="bg-white p-8 rounded-md flex flex-col justify-center">
               <h3 className="text-2xl font-semibold text-gray-700">Arena Stats</h3>
-              <p className="text-gray-600">Find players that share your birthday!</p>
+              <p className="text-gray-600">Checkout Arena stats for home and away teams!</p>
               <Link href="/arena-stats" className="text-blue-500 hover:text-blue-700">Click Here</Link>
             </div>
             <div className="bg-white p-8 rounded-md flex flex-col justify-center">
