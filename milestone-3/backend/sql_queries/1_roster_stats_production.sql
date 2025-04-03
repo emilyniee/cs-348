@@ -8,15 +8,6 @@ WITH P AS (
             ON Rosters.roster_id = RosterMembers.roster_id
     WHERE Rosters.season = %(season)s
         AND Teams.team_name = %(team_name)s
-),
-StatsPerGames AS (
-    SELECT
-        PlayerStats.player_id, PlayerStats.points
-    FROM
-        Game JOIN PlayerStats 
-            ON Game.game_id = PlayerStats.game_id
-        WHERE Game.season = %(season)s
-        AND (Game.home_team_name = %(team_name)s OR Game.away_team_name = %(team_name)s)
 )
 
 SELECT
@@ -24,15 +15,36 @@ SELECT
     player_name,
     birthday, 
     position,
-    avg_points
+    avg_points,
+    avg_assists,
+    avg_rebounds,
+    avg_blocks,
+    avg_steals,
+    avg_turnovers,
+    fg_attempts,
+    avg_three_pt_attempts,
+    avg_three_pt_percent,
+    avg_fg_percent,
+    avg_ft_percent,
+    avg_minutes_played
 FROM
     (
         SELECT
             P.player_id,
-            avg(points) as avg_points
+            avg_points,
+            avg_assists,
+            avg_rebounds,
+            avg_blocks,
+            avg_steals,
+            avg_turnovers,
+            fg_attempts,
+            avg_three_pt_attempts,
+            avg_three_pt_percent,
+            avg_fg_percent,
+            avg_ft_percent,
+            avg_minutes_played
         FROM
-            P JOIN StatsPerGames ON P.player_id = StatsPerGames.player_id
-        GROUP BY
-            P.player_id
+            P JOIN player_avg_stats as pas ON P.player_id = pas.player_id
+        ORDER BY avg_points
     )
 NATURAL JOIN Player;
