@@ -31,8 +31,9 @@ The processed data is saved as CSV files in the `backend/data` folder.
 
 The database schema is set up with the `create_tables.sql` (located in `backend/sql_queries`), and the data is populated into PostgreSQL using the populate function in `database.py`.
 
-## Sample features/functionalities
+## Supported features
 <img width="1501" alt="image" src="https://github.com/user-attachments/assets/796de4d8-cd63-48a5-959e-c5316b16c715" />
+The dashboard lists all supported features, which can be explored by clicking into the blocks
 
 ## Error Handling
 If Docker does not successfully build the frontend, run `npm install`
