@@ -8,11 +8,11 @@ export default function Home() {
   const [statHeader, setStatHeader] = useState("");
 
   const stats = {
-    "pts": "Avg Points",
-    "assists": "Avg Assists",
-    "rebounds": "Avg Rebounds",
-    "steals": "Avg Steals",
-    "blocks": "Avg Blocks",
+    "pts": "Points",
+    "assists": "Assists",
+    "rebounds": "Rebounds",
+    "steals": "Steals",
+    "blocks": "Blocks",
     "fg": "Field Goal Percentage",
     "3pt": "Three Point Percentage"
 };  
