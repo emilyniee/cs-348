@@ -1,10 +1,17 @@
 "use client";
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function ArenaStats() {
   const [data, setData] = useState(null);
   const [arenaName, setArenaName] = useState("");
+  const [arenaNamesDropdown, setArenaNamesDropdown] = useState(null);
+
+  useEffect(() => {
+    fetch("http://localhost:8000/arena_names")
+    .then((res) => res.json())
+    .then((data) => setArenaNamesDropdown(data))
+    .catch((error) => console.error("Error fetching data:", error))});
 
   const fetchArenaStats = () => {
     if (!arenaName) return;
@@ -29,7 +36,19 @@ export default function ArenaStats() {
       win_percentage: row[2]
     }));
   }
-  console.log(data)
+
+  // if (arenaNamesDropdown != null) {
+  //   console.log(arenaNamesDropdown)
+  //   JSON.stringify(arenaNamesDropdown)
+  //   setArenaNamesDropdown(arenaNamesDropdown.map(([arena_name]) => ({
+  //     arena_name
+  //   })));
+  // }
+
+  if (!arenaNamesDropdown) return (
+    <div className='flex flex-col items-center justify-center min-h-screen min-w-screen bg-blue-200 text-gray-800'>Loading leaderboard...</div>
+  )
+
 
   const homeTeamStats = parsedData.filter(item => item.category === "Home Team");
   const topAwayStats = parsedData.filter(item => item.category === "Top Away Team");
@@ -38,13 +57,26 @@ export default function ArenaStats() {
     <div className='flex flex-col items-center justify-center min-h-screen min-w-screen bg-blue-200 text-black'>
       <h1 className="font-semibold text-xl text-gray-800 mb-4">Arena Stats</h1>
       <div className='m-4'>
-        <input
+        {/* <input
           type="text"
           className='mr-4 p-1 rounded-md'
           placeholder="Enter arena name"
           value={arenaName}
           onChange={(e) => setArenaName(e.target.value)}
-        />
+        /> */}
+        <select
+          id="arena-select"
+          value={arenaName}
+          onChange={(e) => setArenaName(e.target.value)}
+          className="p-1 mr-4 rounded-lg border"
+        >
+          <option value="" disabled>Select an arena</option>
+          {arenaNamesDropdown.map((arena, index) => (
+            <option key={index} value={arena}>
+              {arena}
+            </option>
+          ))}
+        </select>
         <button
           className="bg-blue-500 px-2 py-1 rounded-lg text-white"
           onClick={fetchArenaStats}
