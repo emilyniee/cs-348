@@ -46,7 +46,7 @@ export default function ArenaStats() {
   // }
 
   if (!arenaNamesDropdown) return (
-    <div className='flex flex-col items-center justify-center min-h-screen min-w-screen bg-blue-200 text-gray-800'>Loading leaderboard...</div>
+    <div className='flex flex-col items-center justify-center min-h-screen min-w-screen bg-blue-200 text-gray-800'>Loading ...</div>
   )
 
 

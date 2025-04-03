@@ -55,7 +55,7 @@ export default function Benchwarmers() {
   if (!data || !parsedData)
     return (
       <div className="flex flex-col items-center justify-center min-h-screen min-w-screen bg-blue-200 text-gray-800">
-        Loading benchwarmers...
+        Loading ...
       </div>
     );
 
