@@ -22,12 +22,21 @@ export default function Home() {
   var parsedData = [];
   if (data != null) {
     JSON.stringify(data)
-    parsedData = data.map(([id, name, birthday, position, avgPts]) => ({
+    parsedData = data.map(([id, name, birthday, position, pts, as, rbs, blks, stls, trnvs, threeperc, fgperc, ftperc, avgmin]) => ({
       id,
       name,
       birthday,
       position, 
-      avgPts
+      pts, 
+      as, 
+      rbs, 
+      blks, 
+      stls, 
+      trnvs,
+      threeperc, 
+      fgperc, 
+      ftperc, 
+      avgmin
     }));
   }
 
@@ -50,17 +59,26 @@ export default function Home() {
       {(parsedData.length != 0) && (
         <div className='bg-blue-100 rounded-lg '>
           <div className="space-y-3 max-h-[500px] overflow-y-auto p-6">
-            <div className="grid grid-cols-5 gap-4 font-semibold text-lg text-gray-800 bg-blue-200 p-4 rounded-t-lg">
+            <div className="grid grid-cols-14 gap-4 font-semibold text-lg text-gray-800 bg-blue-200 p-4 rounded-t-lg">
               <div className="col-span-2">Name</div>
               <div>Birthday</div>
               <div>Position</div>
               <div>Avg Pts</div>
+              <div>Avg Assists</div>
+              <div>Avg Rebounds</div>
+              <div>Avg Blocks</div>
+              <div>Avg Steals</div>
+              <div>Avg Turnovers</div>
+              <div>Avg Three Point Percentage</div>
+              <div>Avg Field Goal Percentage</div>
+              <div>Avg Free Throw Percentage</div>
+              <div>Avg Minutes Played</div>
             </div>
             <div className="space-y-3">
               {parsedData.map((player) => (
                 <div
                   key={player.id}
-                  className="grid grid-cols-5 gap-4 bg-white p-4 shadow-md rounded-lg"
+                  className="grid grid-cols-13 gap-4 bg-white p-4 shadow-md rounded-lg"
                 >
                   <div className="col-span-2 font-semibold text-lg text-gray-800">
                     {player.name}
@@ -71,9 +89,13 @@ export default function Home() {
                   <div className="text-red-400 font-bold">
                     {player.position}
                   </div>
-                  <div className="text-red-400 font-bold">
-                    {Number(player.avgPts).toFixed(2)}
-                  </div>
+ 
+                  {Object.entries(player).slice(4).map(([key, value]) => (
+                    <div key={key} className="text-red-400 font-bold">
+                      {typeof value === 'number' ? value.toFixed(2) : value}
+                    </div>
+                  ))}  
+
                 </div>
               ))}
             </div>
