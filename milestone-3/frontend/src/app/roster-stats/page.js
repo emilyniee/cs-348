@@ -4,6 +4,13 @@ import { useState, useEffect} from 'react';
 export default function Home() {
   const [data, setData] = useState(null);
   const [teamName, setTeamName] = useState("");
+  const [teamNamesDropdown, setTeamNamesDropdown] = useState(null);
+
+  useEffect(() => {
+    fetch("http://localhost:8000/team_names")
+    .then((res) => res.json())
+    .then((data) => setTeamNamesDropdown(data))
+    .catch((error) => console.error("Error fetching data:", error))});
 
   const fetchRosterStats = () => {
     if (!teamName) return;
@@ -40,11 +47,15 @@ export default function Home() {
     }));
   }
 
+  if (!teamNamesDropdown) return (
+    <div className='flex flex-col items-center justify-center min-h-screen min-w-screen bg-blue-200 text-gray-800'>Loading ...</div>
+  )
+
   return (
     <div className='flex flex-col items-center justify-center min-h-screen min-w-screen bg-blue-200 text-black'>
       <h1 className="font-semibold text-xltext-gray-800"> Team Roster Statistics </h1>
       <div className='m-4'>
-        <input
+        {/* <input
           type="text"
           className='mr-4 p-1 rounded-md'
           placeholder="enter team name"
@@ -52,7 +63,20 @@ export default function Home() {
           onChange={(e) => {
             setTeamName(e.target.value)
           }}
-        />
+        /> */}
+          <select
+            id="arena-select"
+            value={teamName}
+            onChange={(e) => setTeamName(e.target.value)}
+            className="p-1 mr-4 rounded-lg border"
+          >
+            <option value="" disabled>Select a team</option>
+            {teamNamesDropdown.map((team, index) => (
+              <option key={index} value={team}>
+                {team}
+              </option>
+            ))}
+          </select>
         <button className="bg-blue-500 px-2 py-1 rounded-lg text-white" onClick={fetchRosterStats}>Go</button>
       </div>
       

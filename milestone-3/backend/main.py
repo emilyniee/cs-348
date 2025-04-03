@@ -30,6 +30,11 @@ def get_roster_stats(teamName: str = Query(..., description="Team name")):
     })
     return res
 
+@app.get('/team_names')
+def get_team_names():
+    res = execute_prepared_query('2_team_names.sql')
+    return res
+
 @app.get('/team_best_worst_matchup')
 def get_team_best_worst_matchup(teamName: str = Query(..., description="Team name")):
     res = execute_prepared_query('2_team_best_worst_matchups_production.sql', {
@@ -40,6 +45,11 @@ def get_team_best_worst_matchup(teamName: str = Query(..., description="Team nam
 @app.get("/leaderboards")
 def get_leaderboards():
     res = execute_prepared_query('3_leaderboards_production_use_view.sql')
+    return res
+
+@app.get('/arena_names')
+def get_arena_names():
+    res = execute_prepared_query('4_arena_names.sql')
     return res
 
 @app.get('/arena_stats')
@@ -70,7 +80,7 @@ def get_longest_win_streaks():
     return res
 
 @app.get("/most_triple_doubles")
-def get_benchwarmers():
+def most_triple_doubles():
     res = execute_prepared_query('8_most_triple_doubles.sql')
     return res
 

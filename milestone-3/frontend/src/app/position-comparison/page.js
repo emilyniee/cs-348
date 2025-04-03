@@ -41,7 +41,7 @@ export default function Home() {
   if (!data.length) {
     return (
       <div className='flex flex-col items-center justify-center min-h-screen min-w-screen bg-blue-200 text-gray-800'>
-        Loading Position Comparison
+        Loading ...
       </div>
     );
   }
@@ -49,8 +49,8 @@ export default function Home() {
   return (
     <div className='flex flex-col items-center justify-center min-h-screen min-w-screen bg-blue-200'>
       <h1 className="font-semibold text-xl text-gray-800 m-2"> Position Comparison 🧍‍♂️</h1>
-      <div className="bg-blue-100 rounded-lg">
-        <div className="space-y-3 max-h-[500px] overflow-y-auto p-6">
+      <div className="bg-blue-100 rounded-lg mx-6">
+        <div className="space-y-3 max-h-[700px] overflow-y-auto p-6">
           <div className="grid grid-cols-11 gap-4 font-semibold text-lg text-gray-800 bg-blue-200 p-4 rounded-t-lg">
             <div>Name</div>
             <div>Avg Pts</div>
@@ -59,9 +59,9 @@ export default function Home() {
             <div>Avg Blocks</div>
             <div>Avg Steals</div>
             <div>Avg Turnovers</div>
-            <div>Avg Three Point Percentage</div>
-            <div>Avg Field Goal Percentage</div>
-            <div>Avg Free Throw Percentage</div>
+            <div>Avg Three Point %</div>
+            <div>Avg Field Goal %</div>
+            <div>Avg Free Throw %</div>
             <div>Avg Minutes Played</div>
           </div>
           <div className="space-y-3">

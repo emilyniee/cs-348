@@ -28,22 +28,12 @@ export default function Home() {
   );
 
   if (!data || !parsedData) return (
-    <div className='flex flex-col items-center justify-center min-h-screen min-w-screen bg-blue-200 text-gray-800'>Loading win streaks...</div>
+    <div className='flex flex-col items-center justify-center min-h-screen min-w-screen bg-blue-200 text-gray-800'>Loading ...</div>
   )
 
   return (
     <div className='flex flex-col items-center justify-center min-h-screen min-w-screen bg-blue-200'>
       <h1 className="font-semibold text-xl text-gray-800 m-2"> {parsedData[0].season} Longest Win Streaks 🔥</h1>
-      {/* Search Bars */}
-      <div className="mb-4 flex flex-col gap-2">
-        <input
-          type="text"
-          placeholder="Search by team name..."
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          className="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 text-gray-800"
-        />
-      </div>
       <div className="bg-blue-100 rounded-lg">
         <div className="space-y-3 max-h-[500px] overflow-y-auto p-6">
         <div className="flex items-center justify-between font-semibold text-lg text-gray-800 bg-blue-200 p-4 rounded-t-lg">
@@ -62,6 +52,15 @@ export default function Home() {
           ))}
           </div>
         </div>
+      </div>
+      <div className="mt-2 flex flex-col gap-2 min-w-[350px]">
+        <input
+          type="text"
+          placeholder="Search by team name..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          className="px-4 p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 text-gray-800"
+        />
       </div>
     </div>
   );
