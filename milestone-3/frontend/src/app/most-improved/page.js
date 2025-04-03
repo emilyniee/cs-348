@@ -63,11 +63,11 @@ export default function Home() {
       <h1 className="font-semibold text-xl text-gray-800 m-2">
         Teams with the most improvement 📈
       </h1>
-      <h2 className="font-semibold text-l text-gray-800 m-2">
+      <h2 className=" text-l text-gray-800 m-2">
         Comparing win percentage at the first half of a season to the win percentage at the second
         half of the season
       </h2>
-      <div className="bg-blue-100 rounded-lg">
+      <div className="bg-blue-100 rounded-lg mx-8 my-2">
         <div className="space-y-3 max-h-[500px] overflow-y-auto p-6">
           <div className="grid grid-cols-8 gap-4 font-semibold text-lg text-gray-800 bg-blue-200 p-4 rounded-t-lg">
             <div>Team</div>
