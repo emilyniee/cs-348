@@ -42,9 +42,24 @@ def get_team_best_worst_matchup(teamName: str = Query(..., description="Team nam
     })
     return res
 
+
+STAT_QUERIES = {
+    "pts": "3_leaderboards_production_pts.sql",
+    "assists": "3_leaderboards_production_assists.sql",
+    "rebounds": "3_leaderboards_production_rebounds.sql",
+    "steals": "3_leaderboards_production_steals.sql",
+    "blocks": "3_leaderboards_production_blocks.sql",
+    "fg": "3_leaderboards_production_fg_percentage.sql",
+    "3pt": "3_leaderboards_production_3pt_percentage.sql"
+}
+
 @app.get("/leaderboards")
-def get_leaderboards():
-    res = execute_prepared_query('3_leaderboards_production_use_view.sql')
+def get_leaderboards(stat: str = Query(..., description="Stat type (e.g., pts, assists, rebounds, etc.)")):
+    if stat not in STAT_QUERIES:
+        return {"error": "Invalid stat type. Choose from: " + ", ".join(STAT_QUERIES.keys())}
+
+    query_file = STAT_QUERIES[stat]
+    res = execute_prepared_query(query_file)
     return res
 
 @app.get('/arena_names')
