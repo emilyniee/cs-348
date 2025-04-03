@@ -2,13 +2,13 @@ WITH FirstHalf AS (
     SELECT * 
     FROM Game
     ORDER BY "date" ASC
-    LIMIT (SELECT COUNT(*) / 2 FROM Game)
+    LIMIT (SELECT FLOOR(COUNT(*) / 2) FROM Game)
 ),
 SecondHalf AS (
     SELECT * 
     FROM Game
     ORDER BY "date" ASC
-    OFFSET (SELECT COUNT(*) / 2 FROM Game)
+    OFFSET (SELECT FLOOR(COUNT(*) / 2) FROM Game)
 ),
 FirstHalfWins AS (
     SELECT team, SUM(wins) AS wins

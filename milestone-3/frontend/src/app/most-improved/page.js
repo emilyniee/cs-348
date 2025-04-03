@@ -89,18 +89,18 @@ export default function Home() {
                 <div className="font-semibold text-lg text-gray-800">{team.first_half_wins}</div>
                 <div className="font-semibold text-lg text-gray-800">{team.first_half_games}</div>
                 <div className="font-semibold text-lg text-gray-800">
-                  {team.first_half_win_pct.toFixed(3)}%
+                  {(team.first_half_win_pct * 100).toFixed(3)}%
                 </div>
                 <div className="font-semibold text-lg text-gray-800">{team.second_half_wins}</div>
                 <div className="font-semibold text-lg text-gray-800">{team.second_half_games}</div>
                 <div className="font-semibold text-lg text-gray-800">
-                  {team.second_half_win_pct.toFixed(3)}%
+                  {(team.second_half_win_pct * 100).toFixed(3)}%
                 </div>
                 <div
                   className="font-semibold text-lg text-gray-800 p-2 rounded-md"
                   style={{ backgroundColor: getBackgroundColor(team.win_pct_change) }}
                 >
-                  {team.win_pct_change.toFixed(3)}%
+                  {(team.win_pct_change * 100).toFixed(3)}%
                 </div>
               </div>
             ))}
