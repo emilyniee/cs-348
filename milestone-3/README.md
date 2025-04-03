@@ -1,4 +1,4 @@
-# cs-348 milestone-2
+# cs-348 milestone-3
 
 ## Starting the application
 
