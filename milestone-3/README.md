@@ -36,4 +36,5 @@ The database schema is set up with the `create_tables.sql` (located in `backend/
 
 ## Error Handling
 If Docker does not successfully build the frontend, run `npm install`
+
 If backend fails, restart in Docker container
